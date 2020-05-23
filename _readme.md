@@ -18,12 +18,16 @@ Several on-going and done projects I do in my GitHub are:
 - [Some more Linux security research and its PoC C-codes](https://github.com/unixfreaxjp/dev/blob/master/README.md) (C)
 - [Shared some malware Yara rules](https://github.com/unixfreaxjp/dev/blob/master/others/myYaraRules.md) (Yara)
 
-And do some reporting like, in example:
-- [Radare2 tests for embeddedOS & BSD platform](https://github.com/unixfreaxjp/malwaremustdie/tree/master/radare2test)
+And writing reports on cyber threats, in example:
+- [Emerging IoT attacks of Kaiten-AK47](https://gist.github.com/unixfreaxjp/7b8bd6be614f7a051fc9a9da760d3138)
 - [IOC repo and checker for Dyre Routers threat](http://unixfreaxjp.github.io/dyrerouters/ )
 - [IOC repo for Strudel threat](https://unixfreaxjp.github.io/MMD-0062-2017/)
+- [And these malware threat analysis reports](https://blog.malwaremustdie/)
 
-You can contact me at GitHub.
+I am in a routine task to report these tests too: 
+- [Radare2 tests for embeddedOS & BSD platform](https://github.com/unixfreaxjp/malwaremustdie/tree/master/radare2test)
+
+You can contact me on GitHub.
 
 ---
 [@unixfreaxjp](https://github.com/unixfreaxjp)
