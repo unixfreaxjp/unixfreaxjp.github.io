@@ -15,10 +15,11 @@ Several on-going and done projects I do in my GitHub are:
 - [HostileBlocker](https://unixfreaxjp.github.io/HostileBlocker/) (bash)
 - [MalwareMustDie Code Repository](https://unixfreaxjp.github.io/malwaremustdie/) (Various)
 - [Blog Parser](https://github.com/unixfreaxjp/unixfreaxjp.github.io/blob/master/scripts/arc_parser.js) (JS)
-- [Some more Linux security research and its PoC C-codes](https://github.com/unixfreaxjp/dev/blob/master/README.md) (C)
+- I like doing research about Linux interception on: [kernel](https://github.com/unixfreaxjp/dev/tree/master/kernel_interception), [network interface](https://github.com/unixfreaxjp/dev/tree/master/network_interception) & [service request](https://github.com/unixfreaxjp/dev/tree/master/request_interception), if I have time. (C)
 - [Shared some malware Yara rules](https://github.com/unixfreaxjp/dev/blob/master/others/myYaraRules.md) (Yara)
+- [Several RE related stuff](https://github.com/unixfreaxjp/dev/blob/master/NixDFIR_ReverseEngineeringCodes/ReadMe.md) (C)
 
-And writing reports on cyber threats, in example:
+And I write reports on cyber threats, in example:
 - [Emerging IoT attacks of Kaiten-AK47](https://gist.github.com/unixfreaxjp/7b8bd6be614f7a051fc9a9da760d3138)
 - [IOC repo and checker for Dyre Routers threat](http://unixfreaxjp.github.io/dyrerouters/ )
 - [IOC repo for Strudel threat](https://unixfreaxjp.github.io/MMD-0062-2017/)
