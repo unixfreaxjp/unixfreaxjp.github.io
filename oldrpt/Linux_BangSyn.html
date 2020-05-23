@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb"><!-- Mirrored from www.kernelmode.info/forum/viewtopic.php?f=16&t=3528 , Sun, 01 Dec 2019 16:49:18 GMT --><!-- Added by HTTrack --><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><!-- /Added by HTTrack -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="designer" content="SiteSplat https://themeforest.net/user/themesplat/portfolio?ref=ThemeSplat">
+<meta content="KernelMode.info" property="og:site_name">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<title>Linux/Bangsyn&nbsp;-&nbsp;KernelMode.info</title>
+
+	<link rel="canonical" href="https://www.kernelmode.info/forum/viewtopic8545.html?t=3528">
+
+<!-- Google free font here -->
+<link href="kmdata/css.css" rel="stylesheet">
+<link href="kmdata/css_002.css" rel="stylesheet">
+
+<!-- CSS files start here -->
+<link href="kmdata/stylesheet.css" rel="stylesheet">
+<link href="kmdata/plupload.css" rel="stylesheet">
+
+
+<link href="kmdata/minicms6846.css" rel="stylesheet" media="screen">
+
+
+<!-- Remove the conditional below to use the custom CSS without FLATBOOTS Mini CMS Extension -->
+<link href="kmdata/custom.css" rel="stylesheet">
+<!-- CSS files stop here -->
+
+
+<!-- older scripts set started here after the headjs - cannot do this with phpbb31 due to ajax stuff -->
+<script src="kmdata/head.htm"></script>
+
+</head>
+<body data-spy="scroll" data-target=".scrollspy" id="phpbb" class="section-viewtopic ltr ">
+
+<div id="wrap" class="corners container-fluid">
+  <!-- start content -->
+  <div id="content-forum">
+    <div class="padding_0_40">
+	    		<div class="social-top">
+		<div class="pull-right">
+							<a title="Delete Cookies" data-original-title="" href="https://www.kernelmode.info/forum/ucp033a.html?mode=delete_cookies" target="_blank"><i class=""></i></a>
+					</div>
+	</div>
+    	
+<!-- Header block -->
+    <header class="header"> 
+     <div class="topArea"> <!-- Logo block -->
+	  <div class="leftArea">
+		  		  <div class="logo-transition">
+			<a class="logo" href="https://www.kernelmode.info/forum/index-2.html">KernelMode.info - Archive</a>
+          </div>		 
+		 		 <p class="site-info">A forum for reverse engineering, OS internals and malware analysis&nbsp;<i class="fa fa-umbrella"></i></p>
+		<div class="clearfix"></div>
+	  </div> 
+
+
+<!-- MOBILE Navigation block -->
+<!-- Everything you want hidden at 940px or less, place within here -->
+    <nav class="hidden-lg hidden-md hidden-sm">
+	 <div id="responsive-navigation" class="collapse">
+		<ul class="flexnav list-unstyled">
+		      	      <li><a href="#"><i class="fa fa-comments"></i> Forum</a></li>
+	      			<!-- Remove ext links -->
+				<!-- Remove ext links -->
+        </ul>
+	  </div>
+    </nav> 
+<!-- MOBILE Navigation block -->             </div>
+    </header> 
+<!-- Header block -->
+
+		   <div style="border-bottom: 1px solid #CCCCCC;"></div>
+		
+	
+		
+<!-- Lower Breadcrumb block -->
+		<div class="sub-breadcrumb">
+            
+                    </div>
+<!-- Lower Breadcrumb block --> 
+	
+		
+	<div id="page-body">
+	
+	    <div class="side-segment"><h3><a href="https://www.kernelmode.info/forum/viewtopic201e.html?f=16&amp;t=3528">Linux/Bangsyn</a></h3></div>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body -->
+<div style="display: none;">Forum for analysis and discussion about malware.<br></div>
+
+
+
+
+
+<div class="col-md-8">
+  <div class="pull-right">	 
+     <ul class="pagination pagination-sm hidden-xs">
+		 <li class="active"><a>1 post</a></li>
+		 					
+
+		     </ul>
+	
+	<div class="visible-xs"> 
+     <ul class="pagination pagination-sm">
+		<li class="active"><a>1 post</a></li>		</ul>
+	</div>
+  </div>
+</div> 
+
+</div>
+
+
+
+<div class="space10"></div>
+ <div class="space10"></div>
+
+ 
+
+  <div id="p24108" class="clearfix">	
+    <article>
+  <div class="well well-sm forum-answer">
+    <div class="row">
+	    <div class="postbody col-md-9 col-sm-8 col-xs-12">
+		  <div class="clearfix">
+			<div class="pull-right">
+			<div role="toolbar" class="btn-toolbar">
+									 
+							 
+						</div>
+			</div>
+			
+			<div class="pull-left">
+		     <h3><a href="#p24108">Linux/Bangsyn</a></h3>
+		    </div>
+		  </div>
+			
+		<div class="clearfix">
+			<div class="pull-left timepost">
+			<i class="fa fa-bookmark"></i>&nbsp;<a href="https://www.kernelmode.info/forum/viewtopic4c2e.html?p=24108#p24108" title="Post">#24108</a>&nbsp;<i class="fa fa-user"></i>&nbsp;by&nbsp;<strong><a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a></strong> 
+			<br><i class="fa fa-clock-o"></i>&nbsp;Thu Oct 09, 2014 8:43 am 
+			</div>
+		</div>
+		
+		<div class="space10"></div>	
+			
+            <div id="post_content24108">
+
+										
+										
+					<span class="hidden hook-bfr-message"></span>
+					<div class="content">A light-weight SYN DoS tool, made in China was found, it called itself "Bangsyn".<br>
+Without command line arguement  it will display the "help", this is why I call it Linux/Bangsyn
+<div class="codebox"><span>Code:&nbsp;<a href="#" onclick="selectCode(this); return false;">Select all</a></span><pre><code>mov     rax, [rbp+var_70]
+mov     rdx, [rax]
+mov     eax, offset format ;&lt;=== "syntax: ./bangsyn ip port time \n"
+mov     rsi, rdx
+mov     rdi, rax        ; format
+mov     eax, 0
+call    _printf
+mov     edi, 0          ; status
+call    _exit</code></pre></div>The source code also implied the same name:
+<div class="codebox"><span>Code:&nbsp;<a href="#" onclick="selectCode(this); return false;">Select all</a></span><pre><code>0x0027B1     bangsyn.c</code></pre></div>
+This GLIBC_2.2.5 built (On Redhat GCC compiler) x64 binary was found in a
+ custom panel together with the Linux/BillGates samples:<br>
+<img src="kmdata/001.htm" alt="Image" class="img-responsive img-post"><br>
+(thx to @benkow for the panel hint) As you can see the size is small.<br>
+<br>
+It is fed by args for domain or IP which is translated by itself and call the DoS SYN function upon conditions are okay:
+<div class="codebox"><span>Code:&nbsp;<a href="#" onclick="selectCode(this); return false;">Select all</a></span><pre><code>//// Prep the host to nuke..
+
+0x0400FBD push    rbp
+0x0400FBE mov     rbp, rsp
+0x0400FC1 sub     rsp, 20h
+0x0400FC5 mov     [rbp+name], rdi // host
+0x0400FC9 mov     rax, [rbp+name]
+0x0400FCD mov     rdi, rax        // cp
+0x0400FD0 call    _inet_addr // struct in_addr inet_makeaddr(int net, int host);
+0x0400FD5 mov     cs:i_4841, eax
+0x0400FDB mov     eax, cs:i_4841
+0x0400FE1 cmp     eax, 0FFFFF
+(...)
+0x0400FE6 mov     rax, [rbp+name]
+0x0400FEA mov     rdi, rax        // name
+0x0400FED call    _gethostbynam // the domain lookup using OS layer
+
+//// Confirming the target, time &amp; packet sent
+
+0x0400B57 mov     edi, offset s // ref: "\nsantong syn: " (in chinese)
+0x0400B5C call    _puts
+0x0400B61 mov     rax, [rbp+var_70]
+0x0400B65 add     rax, 8
+0x0400B69 mov     rdx, [rax]
+0x0400B6C mov     eax, offset aIpS //&lt;==="IP: %s\n"
+0x0400B71 mov     rsi, rdx
+0x0400B74 mov     rdi, rax        // format buffer
+0x0400B77 mov     eax, 0
+0x0400B7C call    _printf
+0x0400B81 movzx   edx, [rbp+var_28]
+0x0400B85 mov     eax, offset aPortU // &lt;=== "Port: %u\n"
+0x0400B8A mov     esi, edx
+0x0400B8C mov     rdi, rax        // format buffer
+0x0400B8F mov     eax, 0
+0x0400B94 call    _printf
+0x0400B99 mov     eax, offset aSecondsD // &lt;=="Seconds: %d\n\n"
+0x0400B9E mov     edx, [rbp+var_24]
+0x0400BA1 mov     esi, edx
+0x0400BA3 mov     rdi, rax        // format buffer
+0x0400BA6 mov     eax, 0
+0x0400BAB call    _printf
+(...)
+0x0400CBC call    dosynpacket // &lt;===The SYN DOS is called here..
+(...)
+0x0400D0F mov     eax, offset aPacketsSentD // "\nPackets Sent: %d \n"</code></pre></div>The function to SYN flood is "dosynpacket()" is self-explanatory.<br>
+<br>
+The virus total detection is, well, is a new malware anyway, is..zero<br>
+<img src="kmdata/002.htm" alt="Image" class="img-responsive img-post"><br>
+<a href="https://www.virustotal.com/en/file/70be1bcd255a0bf12eef0a88e737174447f2ffc162f771f2df2095bc726b31b3/analysis/1412840932/" class="postlink">https://www.virustotal.com/en/file/70be ... 412840932/</a><br>
+<br>
+Easy detection and ID is using below strings:
+<div class="codebox"><span>Code:&nbsp;<a href="#" onclick="selectCode(this); return false;">Select all</a></span><pre><code>0x001178     syntax: ./bangsyn ip port time 
+0x00119A     santong syn: 
+0x0011A8     IP: %s
+0x0011B0     Port: %u
+0x0011BA     Seconds: %d
+0x0011C8     %d.%d.%d.%d
+0x0011D5     Packets Sent: %d 
+0x0011E8     socket
+0x0011EF     cant find %s!
+0x0027B1     bangsyn.c</code></pre></div></div>
+					
+										<div class="clearfix">
+											<div class="attachbox">
+						 <h5>Attachments</h5>
+										
+				
+				
+				<div class="file">
+			<div><i class="fa fa-paperclip fa-flip-horizontal"></i> <a class="postlink" href="https://www.kernelmode.info/forum/download/fileed39-2.php?id=7953">bangsyn.7z</a></div>
+			<small><i class="fa fa-pencil"></i> 7z/infected</small><br>			<small><i class="fa fa-download"></i> (3.58 KiB) Downloaded 73 times</small>
+		</div>
+		
+								</div>
+										</div>
+										
+																										
+            </div>
+					</div>
+			<div class="col-md-3 col-sm-4 hidden-xs">
+			  <div class="user-profile-tab">
+				<div id="profile24108">
+				<div class="user-profile-avatar">
+								<div class="avatar-frame">
+											<a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815"><img src="kmdata/9c64b2fac870b9970a34651e3db5fe06.png" alt="User avatar" height="90" width="90"></a>										</div>
+					
+						
+					 									</div>
+				 				
+
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Username</div>
+				    <div class="user-profile-output">
+						<a href="https://www.kernelmode.info/forum/memberlist9c8d.html?mode=viewprofile&amp;u=2815" style="color: #595959;" class="username-coloured">unixfreaxjp</a>					</div>
+				</div>
+				
+								
+								<div class="user-profile-row">
+					    <div class="user-profile-tag">Posts</div>
+				    <div class="user-profile-output">
+						501
+					</div>
+				</div>
+								
+					
+				<div class="user-profile-row">
+					    <div class="user-profile-tag">Joined</div>
+				    <div class="user-profile-output">
+						Thu Apr 12, 2012 4:53 pm
+					</div>
+				</div>
+								
+				
+								
+																
+							    								
+				</div>
+			  </div>
+		    </div>
+    </div>
+		   </div>
+</article>
+ 
+</div>
+
+
+
+
+ <div class="pull-right">
+     <ul class="pagination pagination-sm hidden-xs">
+	 					
+     	  <li class="active"><a>1 post</a></li>
+			
+
+		     </ul>
+	 
+	<div class="visible-xs"> 
+	<ul class="pagination pagination-sm">
+	 	 				
+	 <li><a class="pagination-trigger" data-placement="top">Page <strong>1</strong> of <strong>1</strong></a></li>
+	 <li class="active"><a>1 post</a></li>
+	</ul>
+	</div>
+ </div>
+</div>
+
+<div class="clearfix">
+   <div class="pull-right">
+	<div class="visible-xs"> 
+	 <ul class="pagination pagination-sm">
+	 			
+
+			 </ul>
+	</div>
+   </div>
+</div>
+
+<div class="space10"></div>
+<div class="pull-left">
+	<a href="https://www.kernelmode.info/forum/viewforumf2fa.html?f=16" accesskey="r"><i class="fa fa-chevron-left"></i>&nbsp;Return to “Malware”</a>
+</div>
+<div class="space10"></div>
+<div class="space10"></div>
+
+    
+
+
+
+
+<footer> <!-- Footer block -->
+    	
+</footer>
+	
+	</div><!-- page-body id in header -->
+  </div> <!-- padding_0_40 in header -->
+  <!-- content-forum in header -->
+ <!-- wrap - corners container in header -->
+
+<a id="totop" class="topstyle" href="#" onclick="return false;" style="display:none;"><i class="fa fa-chevron-up"></i></a>
+
+<div class="container">
+  <div class="copyright">
+	<small class="pull-left">
+						<!-- <a href="http://www.sitesplat.com/phpBB3/">BBOOTS</a> -->
+	</small>
+	<small class="pull-right">
+			<!-- &nbsp;&#45;&nbsp;All times are <span title="UTC">UTC</span>&nbsp;&#45;&nbsp; -->
+		
+	</small>
+  </div>
+</div>
+
+<div class="hidden"></div> 
+
+<!-- injected via core and ajax JS for the return confirmation actions -->
+   <div id="page-footer">
+	<div id="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+		<div id="darken">&nbsp;</div>
+	</div>
+
+	<div id="phpbb_alert" class="alert alert-default phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+		<button type="button" class="close alert_close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+		<h3 class="alert_title">&nbsp;</h3>
+		 <p class="alert_text"></p>
+	</div>
+	
+	<div id="phpbb_confirm" class="alert alert-default phpbb_alert">
+		<button type="button" class="close alert_close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+		<div class="alert_text"></div>
+	</div>
+  </div>	
+<!-- injected via core and ajax JS for the return confirmation actions -->
+
+
+<script>
+// this loads jquery asyncrounously & in parallel
+head.load("../../cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js", "../../cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js", "styles/BBOOTS/theme/vendors/forum_fn.min.js");
+</script>
+
+<!-- we use this event to load the JS scripts properly via the extension system -->
+
+<!-- injected via a module or an include -->
+<script>
+// some function that depends on bootstrap and jquery
+head.ready(function () {
+	$('.footable').footable();$(".selectpicker").selectpicker();$(".selectpicker").tooltip("disable");var totop=$("#totop");totop.click(function(){$("html, body").stop(true,true).animate({scrollTop:0},500);return false});$(window).scroll(function(){if($(this).scrollTop()>600){totop.fadeIn()}else{totop.fadeOut()}});$("button[data-loading-text], input[data-loading-text], .btn-load").click(function(){var e=$(this);e.button("loading");setTimeout(function(){e.button("reset")},3e3)});
+	$("input").iCheck({checkboxClass:"icheckbox_minimal-grey",radioClass:"iradio_minimal-grey"});$(".btn-search").click(function(){$(".search-input").toggleClass("open").find("input").focus()});$(".close").click(function(){$(this).prev("input").val("").parents(".search-input").removeClass("open")});$(".nav-tog").click(function(){if($(this).hasClass("neutro")){$(this).removeClass("neutro").addClass("open")}else{$(this).removeClass("open").addClass("neutro")}});
+	$('input[data-reset-on-edit]').on('keyup', function() {$(this.getAttribute('data-reset-on-edit')).val('');});
+	$('a').tooltip({trigger : 'hover',container: 'body'})
+    $('#notification_list_button').click(function(){setTimeout(function(){$(".nano").nanoScroller();},0);});	
+});
+// some function that depends on bootstrap and jquery
+</script>
+<!-- injected via a module or an include -->
+
+
+
+<!-- // lets load the plupload crap super huge files becuase... wait for it wait for it. "swear here" -->
+<script>
+// lets load the plupload crap super huge files becuase... wait for it wait for it. "swear here"
+head.ready(function () {
+//<![CDATA[
+phpbb.plupload = {
+	i18n: {
+		'b': 'B',
+		'kb': 'KB',
+		'mb': 'MB',
+		'gb': 'GB',
+		'tb': 'TB',
+		'Add Files': 'Add\u0020files',
+		'Add files to the upload queue and click the start button.': 'Add\u0020files\u0020to\u0020the\u0020upload\u0020queue\u0020and\u0020click\u0020the\u0020start\u0020button.',
+		'Close': 'Close',
+		'Drag files here.': 'Drag\u0020files\u0020here.',
+		'Duplicate file error.': 'Duplicate\u0020file\u0020error.',
+		'File: %s': 'File\u003A\u0020\u0025s',
+		'File: %s, size: %d, max file size: %d': 'File\u003A\u0020\u0025s,\u0020size\u003A\u0020\u0025d,\u0020max\u0020file\u0020size\u003A\u0020\u0025d',
+		'File count error.': 'File\u0020count\u0020error.',
+		'File extension error.': 'File\u0020extension\u0020error.',
+		'File size error.': 'File\u0020size\u0020error.',
+		'File too large:': 'File\u0020too\u0020large\u003A',
+		'Filename': 'Filename',
+		'Generic error.': 'Generic\u0020error.',
+		'HTTP Error.': 'HTTP\u0020error.',
+		'Image format either wrong or not supported.': 'Image\u0020format\u0020either\u0020wrong\u0020or\u0020not\u0020supported.',
+		'Init error.': 'Init\u0020error.',
+		'IO error.': 'IO\u0020error.',
+		'Invalid file extension:': 'Invalid\u0020file\u0020extension\u003A',
+		'N/A': 'N\/A',
+		'Runtime ran out of available memory.': 'Runtime\u0020ran\u0020out\u0020of\u0020available\u0020memory.',
+		'Security error.': 'Security\u0020error.',
+		'Select files': 'Select\u0020files',
+		'Size': 'Size',
+		'Start Upload': 'Start\u0020upload',
+		'Start uploading queue': 'Start\u0020uploading\u0020queue',
+		'Status': 'Status',
+		'Stop Upload': 'Stop\u0020upload',
+		'Stop current upload': 'Stop\u0020current\u0020upload',
+		"Upload URL might be wrong or doesn't exist.": 'Upload\u0020URL\u0020might\u0020be\u0020wrong\u0020or\u0020does\u0020not\u0020exist.',
+		'Uploaded %d/%d files': 'Uploaded\u0020\u0025d\/\u0025d\u0020files',
+		'%d files queued': '\u0025d\u0020files\u0020queued',
+		'%s already present in the queue.': '\u0025s\u0020already\u0020present\u0020in\u0020the\u0020queue.'
+	},
+	config: {
+		runtimes: 'html5',
+		url: './posting.php?mode=reply&f=16&t=3528',
+		max_file_size: '10244588b',
+		chunk_size: '1048576b',
+		unique_names: true,
+		filters: [{title: 'Images', extensions: 'gif,png,jpeg,jpg,tif,tiff,tga'},{title: 'Archives', extensions: 'gtar,gz,tar,zip,rar,ace,torrent,tgz,bz2,7z'},{title: 'Plain_text', extensions: 'txt,c,h,cpp,hpp,diz,csv,ini,log,js,xml'},{title: 'Documents', extensions: 'xls,xlsx,xlsm,xlsb,doc,docx,docm,dot,dotx,dotm,pdf,ai,ps,ppt,pptx,pptm,odg,odp,ods,odt,rtf'}],
+		
+		headers: {'X-PHPBB-USING-PLUPLOAD': '1', 'X-Requested-With': 'XMLHttpRequest'},
+		file_data_name: 'fileupload',
+		multipart_params: {'add_file': 'ADD_FILE'},
+		form_hook: '#qr_postform',
+		browse_button: 'add_files',
+		drop_element : 'message',
+	},
+	lang: {
+		ERROR: 'Error',
+		TOO_MANY_ATTACHMENTS: 'TOO_MANY_ATTACHMENTS',
+	},
+	order: 'desc',
+	maxFiles: 10,
+	data: [],
+}
+//]]>
+head.load("assets/plupload/plupload.full.min.js", "styles/BBOOTS/theme/vendors/plupload.min.js");
+});
+</script>
+
+<!-- Google Analytics: change UA-XXXXXXXX-X to be your site's ID. -->
+
+
+
+
+</body><!-- Mirrored from www.kernelmode.info/forum/viewtopic.php?f=16&t=3528 , Sun, 01 Dec 2019 16:49:20 GMT --></html>
