@@ -1,0 +1,229 @@
+/*****************************************************************
+* Custom CSS Stylesheet. You can add any custom CSS selectors here after the comment line 
+* They will be given the highest priority on any elements on the forum
+* Customize your forum color scheme in one click: www.sitesplat.com/phpBB3/ 
+* **************************************************************
+*
+* BBOOTS @SiteSplat.com - Custom CSS STYLESHEET - 
+* 
+* **************************************************************
+*****************************************************************/
+/* ===[ CSS HOOK TOP ]=== */
+ 
+
+/* ===[ CSS HOOK BOTTOM ]=== */
+
+/* BBOOTS / FLATBOOTS Custom Colors Generated With COLORIZE - www.sitesplat.com - copyright (c) 2014 SiteSplat.com */
+.logo span {
+	color: #0088cc;
+}
+
+.logo-transition a:after {
+	color: #0088cc;
+}
+
+.navBtn {
+	background-color: #0088cc;
+}
+
+.navBtn > a {
+	border-left: 1px solid #005580;
+}
+
+.submenu {
+	border-bottom: 4px solid #0088cc;
+}
+
+.nav-icon:hover [class*="has-sub"] {
+	color: #0088cc;
+}
+
+.submenu li:hover > a {
+	color: #0088cc;
+}
+
+.submenu li:hover > span {
+	background-color: #0088cc;
+}
+
+.subheader {
+	border-top: 4px solid #0088cc;
+}
+
+.side-segment h3:after,
+.side-segment h2:after {
+	background-color: #0088cc;
+}
+
+.alert-info {
+	background-color: #0088cc;
+	border-color: #0088cc;
+}
+
+.label-info,
+.badge-info {
+	background-color: #0088cc;
+}
+
+.progress-info.progress-striped .bar,
+.progress-striped .bar-info {
+	background-color: #0088cc;
+}
+
+#scrollbar-one .thumb .end,
+#scrollbar-two .thumb .end {
+	background-color: #0088cc;
+}
+
+#scrollbar-one .thumb,
+#scrollbar-two .thumb {
+	background-color: #0088cc;
+}
+
+.tabbable-custom .nav-tabs > li.active {
+	border-top: 3px solid #0088cc;
+}
+
+.ver-inline-menu li.active a,
+.ver-inline-menu li.active i {
+	background: none repeat scroll 0 0 #0088cc;
+	border-left: 1px solid #005580;
+}
+
+.ver-inline-menu li.active:after {
+	border-left: 6px solid #0088cc;
+}
+
+.ver-inline-menu li.active i {
+	background: none repeat scroll 0 0 #0099e6;
+}
+
+.table-primary thead th {
+	background-color: #0088cc;
+	border-color: #0088cc !important;
+}
+
+a.forumtitle {
+	color: #0088cc;
+}
+
+.twitter-layout:before {
+	color: #0088cc;
+}
+
+footer .interact a:hover {
+	color: #0088cc;
+}
+
+footer {
+	border-top: 3px solid #0088cc;
+}
+
+footer .bottomLinks small a {
+	color: #0088cc;
+}
+
+footer .bottomLinks a:hover {
+	border-bottom: 1px solid #0088cc;
+}
+
+#footerContent blockquote p span {
+	color: #0088cc;
+}
+
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+	background-color: #0088cc;
+	border-color: #0088cc;
+}
+
+.btn-link {
+	color: #0088cc;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+	color: #005580;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+	background-color: #0088cc;
+}
+/* BBOOTS - FLATBOOTS Main Links color */
+a {
+	color: #0088cc;
+}
+
+a:hover,
+a:focus {
+	color: #005580;
+}
+
+blockquote {
+	border-left-color: #0088cc;
+}
+
+blockquote.pull-right {
+	border-right-color: #0088cc;
+}
+
+.btn-primary {
+	color: #ffffff;
+	background-color: #0088cc;
+	border: 0;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+	color: #ffffff;
+	background-color: #555555;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+	color: #0088cc;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+	color: #0088cc;
+}
+
+.dropdown-submenu:hover > a:after {
+	border-left-color: #0088cc;
+}
+/* Button Backgrounds */
+/* FLATBOOTS Custom Color Generated with COLORIZE */
+/* FLATBOOTS Forum Panel Heading */
+.panel-forum > .panel-heading {
+	background-color: #0088cc;
+}
+/* FLATBOOTS Button Top */
+.top-flat {
+	background-color: #0088cc;
+}
+
+footer {
+	border-top: medium none;
+}
+/* FLATBOOTS Teaser Header Background color */
+.masthead:before {
+	background-color: #0088cc;
+}
+/* FLATBOOTS Footer Call to Action Background Color */
+.mastbottom {
+	background-color: #0088cc;
+}
+
+#wrap {
+    margin: auto;
+}
