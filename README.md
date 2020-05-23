@@ -1,8 +1,6 @@
-# unixfreaxjp.github.io
+I am [@unixfreaxjp](https://github.com/unixfreaxjp) and this is the front-end of my working repository codes in the GitHub.
 
-I am @unixfreaxjp and this is the front-end of my working repository codes in the GitHub.
-
-I am am RE and practical UNIX related coder, I coded in some languages without flavors and I don't like to do specific indentation.
+I am an RE in IR fireld. and a practical UNIX related coder, I coded in some languages without flavors and I don't like to do specific indentation. My code environtment is shell, mostly VT100-base.
 
 I do programming like in: Perl, Shell script, C, Python, Assembler or a bit of Ruby, with some web programming like: PHP, Java(+/-Script), etc.
 Currently on LUA, Cython and Go for malware DFIR/RE purpose.
