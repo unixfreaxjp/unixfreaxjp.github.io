@@ -21,7 +21,7 @@ Several on-going and done projects I do in my GitHub are:
 And do some reporting like, in example:
 - [Radare2 tests for embeddedOS & BSD platform](https://github.com/unixfreaxjp/malwaremustdie/tree/master/radare2test)
 - [IOC repo and checker for Dyre Routers threat](http://unixfreaxjp.github.io/dyrerouters/ )
-- [IOC repo for Strudel threat]](https://unixfreaxjp.github.io/MMD-0062-2017/)
+- [IOC repo for Strudel threat](https://unixfreaxjp.github.io/MMD-0062-2017/)
 
 You can contact me at GitHub.
 
