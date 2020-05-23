@@ -1,6 +1,6 @@
 I am [@unixfreaxjp](https://github.com/unixfreaxjp) and this is the front-end of my working repository codes in the GitHub.
 
-I am an RE in IR fireld. and a practical UNIX related coder, I coded in some languages without flavors and I don't like to do specific indentation. My code environtment is shell, mostly VT100-base.
+I am an analyst and RE in IR field and a practical UNIX related coder, I coded in some languages without flavors and I don't like to do specific indentation. My code environtment is shell, mostly VT100-base.
 
 I do programming like in: Perl, Shell script, C, Python, Assembler or a bit of Ruby, with some web programming like: PHP, Java(+/-Script), etc.
 Currently on LUA, Cython and Go for malware DFIR/RE purpose.
@@ -10,7 +10,7 @@ My [PGP](https://keybase.io/unixfreaxjp#show-public):
 BF89 F24B E57A 81B1 B93A 99CC B9AD 3D5B EC61 AB91 // fingerprint
 B9AD 3D5B EC61 AB91                               // 64-bit
 ```
-Several on-going and done projects I initiated in my GitHub are:
+Several on-going and done projects I do in my GitHub are:
 - [Glibcver-endian-checker](https://unixfreaxjp.github.io/glibcver-endian-checker/) (C)
 - [HostileBlocker](https://unixfreaxjp.github.io/HostileBlocker/) (bash)
 - [MalwareMustDie Code Repository](https://unixfreaxjp.github.io/malwaremustdie/) (Various)
@@ -23,7 +23,7 @@ And do some reporting like, in example:
 - [IOC repo and checker for Dyre Routers threat](http://unixfreaxjp.github.io/dyrerouters/ )
 - [IOC repo for Strudel threat]](https://unixfreaxjp.github.io/MMD-0062-2017/)
 
-You can contact me via GitHub.
+You can contact me at GitHub.
 
 ---
 [@unixfreaxjp](https://github.com/unixfreaxjp)
