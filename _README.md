@@ -1,9 +1,11 @@
 # unixfreaxjp.github.io
 
 I am @unixfreaxjp and this is the front-end of my working repository codes in the GitHub.
+
 I am a practical UNIX related coder, and coded in some langauges without flavors and don't like to do specific indent.
-Perl, Shell script, C, Python, Assembler or a bit of Ruby, with some web programming like: PHP, Java(+/-Script), etc.
-Currently on LUA and Go for malware DFIR/RE purpose.
+
+Programming like in: Perl, Shell script, C, Python, Assembler or a bit of Ruby, with some web programming like: PHP, Java(+/-Script), etc.
+Currently on LUA, Cython and Go for malware DFIR/RE purpose.
 
 My [PGP](https://keybase.io/unixfreaxjp#show-public):
 ```
