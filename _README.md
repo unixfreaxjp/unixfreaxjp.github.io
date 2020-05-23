@@ -10,14 +10,14 @@ My [PGP](https://keybase.io/unixfreaxjp#show-public):
 BF89 F24B E57A 81B1 B93A 99CC B9AD 3D5B EC61 AB91 // fingerprint
 B9AD 3D5B EC61 AB91                               // 64-bit
 ```
-Several on-going and done projects I do in my GitHub are:
+Several on-going and done projects I manage in my GitHub are:
 - [Glibcver-endian-checker](https://unixfreaxjp.github.io/glibcver-endian-checker/) (C)
+- Doing research in *Linux interception* on: [kernel](https://github.com/unixfreaxjp/dev/tree/master/kernel_interception), [network interface](https://github.com/unixfreaxjp/dev/tree/master/network_interception) & [service request](https://github.com/unixfreaxjp/dev/tree/master/request_interception). (C)
 - [HostileBlocker](https://unixfreaxjp.github.io/HostileBlocker/) (bash)
 - [MalwareMustDie Code Repository](https://unixfreaxjp.github.io/malwaremustdie/) (Various)
 - [Blog Parser](https://github.com/unixfreaxjp/unixfreaxjp.github.io/blob/master/scripts/arc_parser.js) (JS)
-- I like doing research about Linux interception on: [kernel](https://github.com/unixfreaxjp/dev/tree/master/kernel_interception), [network interface](https://github.com/unixfreaxjp/dev/tree/master/network_interception) & [service request](https://github.com/unixfreaxjp/dev/tree/master/request_interception), if I have time. (C)
 - [Shared some malware Yara rules](https://github.com/unixfreaxjp/dev/blob/master/others/myYaraRules.md) (Yara)
-- [Several RE related stuff](https://github.com/unixfreaxjp/dev/blob/master/NixDFIR_ReverseEngineeringCodes/ReadMe.md) (C)
+- [Several RE related stuff](https://github.com/unixfreaxjp/dev/blob/master/NixDFIR_ReverseEngineeringCodes/ReadMe.md) (Various)
 
 And I write reports on cyber threats, in example:
 - [Emerging IoT attacks of Kaiten-AK47](https://gist.github.com/unixfreaxjp/7b8bd6be614f7a051fc9a9da760d3138)
