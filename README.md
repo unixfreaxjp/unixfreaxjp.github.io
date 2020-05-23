@@ -22,7 +22,7 @@ And writing reports on cyber threats, in example:
 - [Emerging IoT attacks of Kaiten-AK47](https://gist.github.com/unixfreaxjp/7b8bd6be614f7a051fc9a9da760d3138)
 - [IOC repo and checker for Dyre Routers threat](http://unixfreaxjp.github.io/dyrerouters/ )
 - [IOC repo for Strudel threat](https://unixfreaxjp.github.io/MMD-0062-2017/)
-- [And these malware threat analysis reports](https://blog.malwaremustdie/)
+- [And these malware threat analysis reports](https://blog.malwaremustdie.org/)
 
 I am in a routine task to report these tests too: 
 - [Radare2 tests for embeddedOS & BSD platform](https://github.com/unixfreaxjp/malwaremustdie/tree/master/radare2test)
