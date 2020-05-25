@@ -3,7 +3,7 @@ I am [@unixfreaxjp](https://github.com/unixfreaxjp) and this is the front-end of
 I am a security engineer, currently a cyber threat analyst and RE in IR field of cyber incident management. For coding, I am a practical UNIX related coder, I coded in some languages without flavors and I don't like to do specific indentation. My code environtment is on the shell, mostly on the `VT100`-base.
 
 I do programming like in: `Perl`, Shell scripts, `C`, `Python`, `Assembler` or a bit of `Ruby`, with some web programming like: `PHP`, Java(+/-JavaScript), some `VB/PowerShell` etc.
-Currently on LUA, Cython and Go for DFIR/RE purpose.
+Currently on `LUA`, `Cython` and `Go` for DFIR/RE purpose.
 
 My [PGP](https://keybase.io/unixfreaxjp#show-public):
 ```
@@ -16,7 +16,7 @@ Several on-going and done coding projects I do in GitHub are:
 - [HostileBlocker](https://unixfreaxjp.github.io/HostileBlocker/) (bash)
 - [MalwareMustDie Code Repository](https://unixfreaxjp.github.io/malwaremustdie/) (Various)
 - [Blog Parser](https://github.com/unixfreaxjp/unixfreaxjp.github.io/blob/master/scripts/arc_parser.js) (JS)
-- [Shared some malware `Yara` rules](https://github.com/unixfreaxjp/dev/blob/master/others/SharedYaraRules.md) (Yara)
+- [Shared some malware Yara rules](https://github.com/unixfreaxjp/dev/blob/master/others/SharedYaraRules.md) (Yara)
 - [Several RE related stuff](https://github.com/unixfreaxjp/dev/blob/master/NixDFIR_ReverseEngineeringCodes/ReadMe.md) (Various)
 
 And I write reports on cyber threats / RE / DFIR, with GitHub data for the reference, in example:
