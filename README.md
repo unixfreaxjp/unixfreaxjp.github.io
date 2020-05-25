@@ -16,7 +16,7 @@ Several on-going and done coding projects I do in GitHub are:
 - [HostileBlocker](https://unixfreaxjp.github.io/HostileBlocker/) (bash)
 - [MalwareMustDie Code Repository](https://unixfreaxjp.github.io/malwaremustdie/) (Various)
 - [Blog Parser](https://github.com/unixfreaxjp/unixfreaxjp.github.io/blob/master/scripts/arc_parser.js) (JS)
-- [Shared some malware `Yara` rules](https://github.com/unixfreaxjp/dev/blob/master/others/myYaraRules.md) (Yara)
+- [Shared some malware `Yara` rules](https://github.com/unixfreaxjp/dev/blob/master/others/SharedYaraRules.md) (Yara)
 - [Several RE related stuff](https://github.com/unixfreaxjp/dev/blob/master/NixDFIR_ReverseEngineeringCodes/ReadMe.md) (Various)
 
 And I write reports on cyber threats / RE / DFIR, with GitHub data for the reference, in example:
