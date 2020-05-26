@@ -27,10 +27,10 @@ And I write reports on cyber threats / RE / DFIR, with GitHub data for the refer
 - [Sometimes several Japanese threat analysis](https://blog.0day.jp/)
 - Also links from my Linux and `ELF` malicious binary research repository I've focused since 2010.
 
-I am in a routine task to report these tests too, via Github to help radare2 dev team:
+I am in a routine task to report bugfix, enhancements & tests via Github to help radare2 improvement:
 - [Radare2 project for bug & enhanchment issues](https://github.com/radareorg/radare2/issues?q=is%3Aissue+is%3Aclose+author%3Aunixfreaxjp+)(these are **"not easy stuff"**)
 - [Radare2 project to test for embeddedOS & BSD platform](https://github.com/unixfreaxjp/malwaremustdie/tree/master/radare2test)
-- These are vacuum for a while due to I can not go to IDC to replace my `FreeBSD` U-servers machines and racks.
+- But it's vacuum for a while due COVID19 since I can not go to IDC to upgrade my `FreeBSD` U-servers machines in racks.
 
 You can contact me in the GitHub.
 
