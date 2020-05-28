@@ -2,8 +2,7 @@ I am [@unixfreaxjp](https://github.com/unixfreaxjp) and this is the front-end of
 
 I am a security engineer, currently a cyber threat analyst and RE in IR field of cyber incident management. For coding, I am a practical UNIX related coder, I coded in some languages without flavors and I don't like to do specific indentation. My code environtment is on the shell, mostly on the `VT100`-base.
 
-I do programming like in: `Perl`, Shell scripts, `C`, `Python`, `Assembler` or a bit of `Ruby`, with some web programming like: `PHP`, Java(+/-JavaScript), some `VB/PowerShell` etc.
-Currently on `LUA`, `Cython` and `Go` for DFIR/RE purpose.
+I do programming in: `Perl`, Shell scripts, `C`, `Python`, `Assembler` or a bit of `Ruby`, with some web programming like: `PHP`, Java(+/-JavaScript), and also some `VB/PowerShell` etc. Currently I'm on `LUA`, `Cython` and `Go` for DFIR/RE purpose.
 
 My [PGP](https://keybase.io/unixfreaxjp#show-public):
 ```
@@ -19,12 +18,12 @@ Several on-going and done coding projects I do in GitHub are:
 - [Shared some malware Yara rules](https://github.com/unixfreaxjp/dev/blob/master/others/SharedYaraRules.md) (Yara)
 - [Several RE related stuff](https://github.com/unixfreaxjp/dev/blob/master/NixDFIR_ReverseEngineeringCodes/ReadMe.md) (Various)
 
-And I write reports on cyber threats / RE / DFIR, with GitHub data for the reference, in example:
-- [Emerging IoT attacks of Kaiten-AK47](https://gist.github.com/unixfreaxjp/7b8bd6be614f7a051fc9a9da760d3138)
+And I write reports on cyber threats / RE / DFIR, with GitHub data as reference, in example:
+- [Some shared monitoring reports about IoT botnets](https://github.com/unixfreaxjp/malwaremustdie/blob/master/etc/IoT_Botnet_Monitoring_Report.md)
 - [IOC repo and checker for Dyre Routers threat](http://unixfreaxjp.github.io/dyrerouters/ )
 - [IOC repo for Strudel threat](https://unixfreaxjp.github.io/MMD-0062-2017/)
-- [And these malware threat reports](https://blog.malwaremustdie.org/)
-- [Sometimes several Japanese threat analysis](https://blog.0day.jp/)
+- [And these malware analysis reports](https://blog.malwaremustdie.org/)
+- [Some Japanese threat analysis](https://blog.0day.jp/)
 - Also links from my Linux and `ELF` malicious binary research repository I've focused since 2010.
 
 I am in a routine task to report bugfix, enhancements & tests via Github to help radare2 improvement:
