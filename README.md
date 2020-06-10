@@ -27,7 +27,7 @@ And I write reports on cyber threats / RE / DFIR, with GitHub data as reference,
 - Also links from my Linux and `ELF` malicious binary research repository I've focused since 2010.
 
 I am in a routine task to report bugfix, enhancements & tests via Github to help radare2 improvement:
-- [Radare2 project for bug & enhanchment issues](https://github.com/radareorg/radare2/issues?q=is%3Aissue+is%3Aclose+author%3Aunixfreaxjp+)(these are **"not easy stuff"**)
+- [Radare2 project for bug & enhanchment issues](https://github.com/radareorg/radare2/issues?q=is%3Aissue+is%3Aall+unixfreaxjp+)(these are **"not easy"** stuff)
 - [Radare2 project to test for embedded OS & BSD platforms](https://github.com/unixfreaxjp/malwaremustdie/tree/master/radare2test)
 - [Radare2 project to report recent STABLE, compatibility & supported UNIX servers OS](https://github.com/unixfreaxjp/r2jp/blob/master/UNIXServerCompatibilityReportEN.md) 
 - But it's now vacuum for a while due COVID19 since I can not go to IDC to upgrade my `FreeBSD` U-servers machines in racks.
