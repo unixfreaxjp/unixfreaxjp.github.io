@@ -26,7 +26,7 @@ And I write reports on cyber threats / RE / DFIR, with GitHub data as reference,
 - [Some Japanese threat analysis](https://blog.0day.jp/)
 - Also links from my Linux and `ELF` malicious binary research repository I've focused since 2010.
 
-I am now a comitter to issue bugfix, enhancements & tests to help radare2 improvement in UNIX systems:
+I am now a committer to issue bugfix, enhancements & tests to help radare2 improvement in UNIX systems:
 - [Radare2 project for bug & enhanchment issues](https://github.com/radareorg/radare2/issues?q=is%3Aissue+is%3Aall+unixfreaxjp+)(these are **"not easy"** stuff)
 - [Radare2 project to test for embedded OS & BSD platforms](https://github.com/unixfreaxjp/malwaremustdie/tree/master/radare2test)
 - [Radare2 project to report recent STABLE, compatibility & supported UNIX servers OS](https://github.com/unixfreaxjp/r2jp/blob/master/UNIXServerCompatibilityReportEN.md) 
