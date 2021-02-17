@@ -24,7 +24,7 @@ And I write reports on cyber threats / RE / DFIR, with GitHub data as reference,
 - [IOC repo for Strudel threat (SSH TCP Redirection Attack)](https://unixfreaxjp.github.io/Strudels_Attack/)
 - [And these malware analysis reports](https://blog.malwaremustdie.org/)
 - [Also some Japanese threat analysis](https://blog.0day.jp/)
-- Also links from my Linux and `ELF` malicious binary research repository I've focused since 2010.
+- Also links from my Linux and `ELF` malicious binary research [repository](https://old.reddit.com/r/LinuxMalware/) I've focused since 2010.
 
 I am now a committer to issue bugfix, enhancements & tests to help radare2 improvement in UNIX systems:
 - [Radare2 project for bug & enhanchment issues](https://github.com/radareorg/radare2/issues?q=is%3Aissue+is%3Aall+unixfreaxjp+)(these are **"not easy"** stuff)
