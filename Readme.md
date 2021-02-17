@@ -1,6 +1,6 @@
 I am [@unixfreaxjp](https://github.com/unixfreaxjp) and this is the front-end of my working space in the GitHub.
 
-I am a security engineer, currently a cyber threat analyst and RE in IR field of cyber incident management. For coding, I am a practical UNIX related coder, I coded in some languages without flavors and I don't like to do specific indentation. My code environtment is on the shell, mostly on the `VT100`-base.
+I am a security engineer, a cyber threat analyst and RE in IR field of cyber incident management. This simple page is explaining my activity in security field for supporting to community, a start of many links for many works I've involved. For coding, I am a practical UNIX related coder, I coded in some languages without flavors and I don't like to do specific indentation. My code environtment is only the shells, mostly on the `VT100`-base.
 
 I do programming in: `Perl`, Shell scripts, `C`, `Python`, `Assembler` or a bit of `Ruby`, with some web programming like: `PHP`, Java(+/-JavaScript), and also some `VB/PowerShell` etc. Currently I'm on `LUA`, `Cython` and `Go` for DFIR/RE purpose.
 
