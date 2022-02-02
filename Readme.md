@@ -27,13 +27,14 @@ And I write reports on cyber threats / RE / DFIR, with GitHub data as reference,
 - [Also some Japanese threat analysis](https://blog.0day.jp/)
 - Also links from my Linux and `ELF` malicious binary research [repository](https://old.reddit.com/r/LinuxMalware/) I've focused since 2010.
 
-I am now a committer to issue bugfix, enhancements & tests to help radare2 improvement in UNIX systems:
+I am a committer to issue bugfix, enhancements & tests to help radare2 improvement in UNIX systems:
+- Debugging and Bug-fixing radare2 presentation's [slide](https://github.com/unixfreaxjp/malwaremustdie/blob/master/slides/R2CON2021.pdf) and [video](https://www.youtube.com/watch?v=RtM6HJAnGCk)
 - [Radare2 project for bug & enhanchment issues](https://github.com/radareorg/radare2/issues?q=is%3Aissue+is%3Aall+unixfreaxjp+)(these are **"not easy"** stuff)
 - [Radare2 project to test for embedded OS & BSD platforms](https://github.com/unixfreaxjp/malwaremustdie/tree/master/radare2test)
 - [Radare2 project to report recent STABLE, compatibility & supported UNIX servers OS](https://github.com/unixfreaxjp/r2jp/blob/master/UNIXServerCompatibilityReportEN.md) 
 - [My work on radare2 patches and workarounds](https://github.com/unixfreaxjp/malwaremustdie/tree/master/radare2stuff)
 
-You can contact me on the GitHub.
+You can contact me via GitHub, or enjoy my technical releated videos in [Youtube](https://www.youtube.com/channel/UCO8sWMuBp6QgaAjl5ZQn5qg)
 
 ---
 [@unixfreaxjp](https://github.com/unixfreaxjp)
